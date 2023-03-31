@@ -8,6 +8,57 @@
   )
 
 
+  (sheet (at 157.48 113.03) (size 82.55 62.23) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3564005b-3ff9-4961-869c-3fc0812d666d)
+    (property "Sheetname" "MPU_MEMORY_RAM" (at 157.48 112.3184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MPU_MEMORY_RAM.kicad_sch" (at 157.48 175.8446 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "STM32MP135DAE7_MPU_HW"
+        (path "/ab0681b4-f474-44a3-a08a-fd6523012440" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 137.16 113.03) (size 12.7 62.23) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b60bdee2-4a21-490f-a1da-6c9dd33a254a)
+    (property "Sheetname" "MPU_POWER" (at 137.16 112.3184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MPU_POWER.kicad_sch" (at 137.16 175.8446 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "STM32MP135DAE7_MPU_HW"
+        (path "/ab0681b4-f474-44a3-a08a-fd6523012440" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 254 113.03) (size 40.64 63.5) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ea00d48b-55da-4120-9498-f2a5bf9edc6d)
+    (property "Sheetname" "MPU_MEMORY_STORAGE-NONVOLATILE" (at 254 112.3184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MPU_MEMORY_STORAGE-NONVOLATILE.kicad_sch" (at 254 177.1146 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "STM32MP135DAE7_MPU_HW"
+        (path "/ab0681b4-f474-44a3-a08a-fd6523012440" (page "3"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )

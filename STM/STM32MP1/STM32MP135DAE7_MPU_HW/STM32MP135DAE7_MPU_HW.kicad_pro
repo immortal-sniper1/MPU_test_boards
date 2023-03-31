@@ -326,6 +326,18 @@
     [
       "ab0681b4-f474-44a3-a08a-fd6523012440",
       ""
+    ],
+    [
+      "3564005b-3ff9-4961-869c-3fc0812d666d",
+      "MPU_MEMORY_RAM"
+    ],
+    [
+      "ea00d48b-55da-4120-9498-f2a5bf9edc6d",
+      "MPU_MEMORY_STORAGE-NONVOLATILE"
+    ],
+    [
+      "b60bdee2-4a21-490f-a1da-6c9dd33a254a",
+      "MPU_POWER"
     ]
   ],
   "text_variables": {}

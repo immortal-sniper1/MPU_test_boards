@@ -8,5 +8,5 @@
  * https://wiki.st.com/stm32mpu/wiki/Category:Device_tree_configuration
  */
 
-#define DDR_SIZE	0x10000000 /* 256MB */
-#include "stm32mp13-fw-config.dtsi"
+/* !!! log : Warning - DDR not configured: FW config not generated  !!! */
+/*#include "???-fw-config.dts"*/

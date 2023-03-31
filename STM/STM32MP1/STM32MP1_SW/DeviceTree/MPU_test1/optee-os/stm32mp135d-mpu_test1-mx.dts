@@ -11,11 +11,9 @@
 /dts-v1/;
 #include <dt-bindings/pinctrl/stm32-pinfunc.h>
 #include <dt-bindings/clock/stm32mp13-clksrc.h>
-#include "stm32mp13-mx.dtsi"
 
 #include "stm32mp135.dtsi"
 #include "stm32mp13xd.dtsi"
-#include "stm32mp13-ddr.dtsi"
 
 /* USER CODE BEGIN includes */
 /* USER CODE END includes */
@@ -24,12 +22,21 @@
 	model = "STMicroelectronics custom STM32CubeMX board - openstlinux-5.15-yocto-kirkstone-mp1-v22.11.23";
 	compatible = "st,stm32mp135d-mpu_test1-mx", "st,stm32mp135";
 
-	memory@c0000000 {
-		device_type = "memory";
-		reg = <0xc0000000 0x10000000>;
+	/* !!! log : Warning - no DDR config found: 'memory' node not generated  !!! */
 
-		/* USER CODE BEGIN memory */
-		/* USER CODE END memory */
+	/*
+	memory@??? {
+		reg = < ??? >;
+	};
+	*/
+
+	reserved-memory {
+		#address-cells = <1>;
+		#size-cells = <1>;
+		ranges;
+
+		/* USER CODE BEGIN reserved-memory */
+		/* USER CODE END reserved-memory */
 	};
 
 	/* USER CODE BEGIN root */
@@ -67,48 +74,16 @@
 
 }; /*root*/
 
+/*Warning: the configuration of the secured GPIOs should be added in (addons) User Section*/
 &pinctrl {
-	sdmmc1_pins_mx: sdmmc1_mx-0 {
-		pins1 {
-			pinmux = <STM32_PINMUX('C', 8, AF12)>, /* SDMMC1_D0 */
-					 <STM32_PINMUX('C', 9, AF12)>, /* SDMMC1_D1 */
-					 <STM32_PINMUX('C', 10, AF12)>, /* SDMMC1_D2 */
-					 <STM32_PINMUX('C', 11, AF12)>, /* SDMMC1_D3 */
-					 <STM32_PINMUX('D', 2, AF12)>; /* SDMMC1_CMD */
-			bias-disable;
-			drive-push-pull;
-			slew-rate = <1>;
-		};
-		pins2 {
-			pinmux = <STM32_PINMUX('C', 12, AF12)>; /* SDMMC1_CK */
-			bias-disable;
-			drive-push-pull;
-			slew-rate = <3>;
-		};
-	};
-
-	sdmmc2_pins_mx: sdmmc2_mx-0 {
-		pins1 {
-			pinmux = <STM32_PINMUX('B', 14, AF10)>, /* SDMMC2_D0 */
-					 <STM32_PINMUX('G', 6, AF10)>; /* SDMMC2_CMD */
-			bias-disable;
-			drive-push-pull;
-			slew-rate = <1>;
-		};
-		pins2 {
-			pinmux = <STM32_PINMUX('E', 3, AF10)>; /* SDMMC2_CK */
-			bias-disable;
-			drive-push-pull;
-			slew-rate = <3>;
-		};
-	};
-
 	/* USER CODE BEGIN pinctrl */
 	/* USER CODE END pinctrl */
 };
 
 &rcc{
 	status = "okay";
+	clocks = <&clk_hsi>, <&clk_lsi>, <&clk_csi>;
+	clock-names = "clk-hsi", "clk-lsi", "clk-csi";
 
 	/* USER CODE BEGIN rcc */
 	/* USER CODE END rcc */
@@ -121,9 +96,6 @@
 		CLK_MCO1_DISABLED
 		CLK_MCO2_DISABLED
 		CLK_CKPER_DISABLED
-		CLK_ETH1_PLL4P
-		CLK_SDMMC1_HCLK6
-		CLK_SDMMC2_HCLK6
 		CLK_STGEN_HSI
 	>;
 	st,clkdiv = <
@@ -141,45 +113,9 @@
 		DIV(DIV_MCO2, 0)
 	>;
 	st,pll_vco {
-		pll2_vco_800Mhz: pll2-vco-800Mhz {
-			src = < CLK_PLL12_HSI >;
-			divmn = < 3 24 >;
-		};
-		pll4_vco_400Mhz: pll4-vco-400Mhz {
-			src = < CLK_PLL4_HSI >;
-			divmn = < 3 24 >;
-		};
 
 		/* USER CODE BEGIN rcc_st-pll_vco */
 		/* USER CODE END rcc_st-pll_vco */
-	};
-
-	pll2:st,pll@1 {
-		compatible = "st,stm32mp1-pll";
-		reg = <1>;
-
-		st,pll = < &pll2_cfg1 >;
-
-		pll2_cfg1: pll2_cfg1 {
-			st,pll_vco = < &pll2_vco_800Mhz >;
-			st,pll_div_pqr = < 1 1 0 >;
-		};
-		/* USER CODE BEGIN pll2 */
-		/* USER CODE END pll2 */
-	};
-
-	pll4:st,pll@3 {
-		compatible = "st,stm32mp1-pll";
-		reg = <3>;
-
-		st,pll = < &pll4_cfg1 >;
-
-		pll4_cfg1: pll4_cfg1 {
-			st,pll_vco = < &pll4_vco_400Mhz >;
-			st,pll_div_pqr = < 3 0 0 >;
-		};
-		/* USER CODE BEGIN pll4 */
-		/* USER CODE END pll4 */
 	};
 
 	st,clk_opp {
@@ -219,24 +155,6 @@
 			/* USER CODE END rcc_st-ck_mlahbs */
 		};
 	};
-};
-
-&sdmmc1{
-	pinctrl-names = "default";
-	pinctrl-0 = <&sdmmc1_pins_mx>;
-	status = "okay";
-
-	/* USER CODE BEGIN sdmmc1 */
-	/* USER CODE END sdmmc1 */
-};
-
-&sdmmc2{
-	pinctrl-names = "default";
-	pinctrl-0 = <&sdmmc2_pins_mx>;
-	status = "okay";
-
-	/* USER CODE BEGIN sdmmc2 */
-	/* USER CODE END sdmmc2 */
 };
 
 /* USER CODE BEGIN addons */
