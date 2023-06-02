@@ -1,0 +1,5 @@
+Layer Pairs Export File for PCB: E:\Documents\Projets\CAP1G\STM_Le Mans\Projets\MB1635E\BASE\MB1635E\01-Design-sources\Altium_Designer\MB1635.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=mb1635e-roundholes-plated.txt|DrillLayers=gtl,g1,g2,g3,g4,gbl
+LayersSetName=Top_Bot_Plated_Slot_Holes|DrillFile=mb1635e-slotholes-plated.txt|DrillLayers=gtl,g1,g2,g3,g4,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=mb1635e-roundholes-nonplated.txt|DrillLayers=gtl,g1,g2,g3,g4,gbl
+LayersSetName=Top_Signal1_Blind_Vias|DrillFile=|DrillLayers=gtl,g1

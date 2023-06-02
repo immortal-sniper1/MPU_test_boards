@@ -1,0 +1,109 @@
+|HEADER=Protel for Windows - Schematic Capture Binary File Version 5.0|Weight=108|MinorVersion=4|UniqueID=SXAOXJER
+|RECORD=31|FontIdCount=5|Size1=10|FontName1=Times New Roman|Size2=10|Bold2=T|FontName2=Times New Roman|Size3=20|FontName3=Times New Roman|Size4=48|FontName4=Times New Roman|Size5=12|FontName5=Times New Roman|UseMBCS=T|IsBOC=T|HotSpotGridOn=T|HotSpotGridSize=4|SystemFont=1|BorderOn=T|SheetNumberSpaceSize=12|AreaColor=16317695|SnapGridOn=T|SnapGridSize=10|VisibleGridOn=T|VisibleGridSize=10|CustomX=1500|CustomY=950|ReferenceZonesOn=T|CustomXZones=6|CustomYZones=4|CustomMarginWidth=20|ShowTemplateGraphics=T|TemplateFileName=C:\Subversion\Altium_Designer_Template\Schematic_A4_Landscape.SchDot|Display_Unit=0|FileVersionInfo=H4sIAAAAAAAEADWNywrCMBBFf2V+oLVvm0VXCuKiIKLuk3bQgTgJmVQp9OOtiJu7OIfDPUw0di3qYWxKlRil66Qy65i6UYlqh22dY1EpMyw9sQs3DEKOu3I5o0Ut+AdFnqo0W3bu6XUkQ5bifJk9dtnSo4i+Y3fkiIG1hdNkLVz9Zu/eDAGFJLoAxDCstWPkKKADArsIMnnvQsTx6+ODBF6/x/QDIK0mDLoAAAA=
+|RECORD=39|IsNotAccesible=T|OwnerPartId=-1|FileName=C:\Subversion\Altium_Designer_Template\Schematic_A4_Landscape.SchDot
+|RECORD=4|OwnerIndex=1|OwnerPartId=-1|Location.X=1022|Color=8388608|FontID=1|Text==sheetnumber|UniqueID=RVNKTVPA
+|RECORD=4|OwnerIndex=1|IndexInSheet=1|OwnerPartId=-1|Location.X=1048|Color=8388608|FontID=1|Text==sheettotal|UniqueID=LKRXWHTZ
+|RECORD=4|OwnerIndex=1|IndexInSheet=2|OwnerPartId=-1|Location.X=876|Location.Y=41|Color=8388608|FontID=2|Text==Title|UniqueID=NUPKQMNM
+|RECORD=6|OwnerIndex=1|IndexInSheet=3|OwnerPartId=-1|LocationCount=2|X1=1090|Y1=40|X2=850|Y2=40|UniqueID=GMQYOYYA
+|RECORD=6|OwnerIndex=1|IndexInSheet=4|OwnerPartId=-1|LocationCount=2|X1=850|Y1=30|X2=1090|Y2=30|UniqueID=CHXHBBUT
+|RECORD=6|OwnerIndex=1|IndexInSheet=5|OwnerPartId=-1|LocationCount=2|X1=900|Y1=10|X2=900|UniqueID=OXHPQWCE
+|RECORD=6|OwnerIndex=1|IndexInSheet=6|OwnerPartId=-1|LocationCount=2|X1=990|Y1=20|X2=990|UniqueID=MFWKQCZE
+|RECORD=6|OwnerIndex=1|IndexInSheet=7|OwnerPartId=-1|LocationCount=2|X1=1090|Y1=50|X2=1090|UniqueID=HBDGEQLM
+|RECORD=4|OwnerIndex=1|IndexInSheet=8|OwnerPartId=-1|Location.X=853|Location.Y=41|FontID=1|Text=Title:|UniqueID=LQVOKMXM
+|RECORD=4|OwnerIndex=1|IndexInSheet=9|OwnerPartId=-1|Location.X=853|FontID=1|Text=Size:|UniqueID=AVWTEYVJ
+|RECORD=4|OwnerIndex=1|IndexInSheet=10|OwnerPartId=-1|Location.X=995|Location.Y=11|FontID=1|Text=Reference:|UniqueID=KMLICOKZ
+|RECORD=4|OwnerIndex=1|IndexInSheet=11|OwnerPartId=-1|Location.X=995|FontID=1|Text=Sheet:|UniqueID=HSAAXNPX
+|RECORD=4|OwnerIndex=1|IndexInSheet=12|OwnerPartId=-1|Location.X=1035|FontID=1|Text=of|UniqueID=LVDABOUA
+|RECORD=4|OwnerIndex=1|IndexInSheet=13|OwnerPartId=-1|Location.X=873|Color=8388608|FontID=1|Text=A4|UniqueID=IKJUGGZJ
+|RECORD=6|OwnerIndex=1|IndexInSheet=14|OwnerPartId=-1|LocationCount=2|X1=850|Y1=10|X2=1090|Y2=10|UniqueID=FUWSECKX
+|RECORD=4|OwnerIndex=1|IndexInSheet=15|OwnerPartId=-1|Location.X=853|Location.Y=11|FontID=1|Text=Revision:|UniqueID=GVGRLWOM
+|RECORD=4|OwnerIndex=1|IndexInSheet=16|OwnerPartId=-1|Location.X=853|Location.Y=31|FontID=1|Text=Project:|UniqueID=FYHJUUHW
+|RECORD=6|OwnerIndex=1|IndexInSheet=17|OwnerPartId=-1|LocationCount=2|X1=850|Y1=50|X2=850|UniqueID=SLASEPTB
+|RECORD=6|OwnerIndex=1|IndexInSheet=18|OwnerPartId=-1|LocationCount=2|X1=1150|Y1=50|X2=850|Y2=50|UniqueID=SQVDRXSI
+|RECORD=4|OwnerIndex=1|IndexInSheet=19|OwnerPartId=-1|Location.X=884|Location.Y=31|Color=8388608|FontID=2|Text==Board_Name|UniqueID=LGUGHCOM
+|RECORD=4|OwnerIndex=1|IndexInSheet=20|OwnerPartId=-1|Location.X=1038|Location.Y=11|Color=8388608|FontID=1|Text==Board_Reference|UniqueID=WXOHZQPK
+|RECORD=4|OwnerIndex=1|IndexInSheet=21|OwnerPartId=-1|Location.X=893|Location.Y=11|Color=8388608|FontID=1|Text==Board_PCB_Revision|UniqueID=MZATCRSR
+|RECORD=4|OwnerIndex=1|IndexInSheet=22|OwnerPartId=-1|Location.X=903|Location.Y=11|Color=8388608|FontID=1|Text==Board_Assembly_Revision|UniqueID=CFYVBKUI
+|RECORD=4|OwnerIndex=1|IndexInSheet=23|OwnerPartId=-1|Location.X=927|Color=8388608|FontID=1|Text==Board_Document_Date|UniqueID=GYYNABOQ
+|RECORD=6|OwnerIndex=1|IndexInSheet=24|OwnerPartId=-1|LocationCount=2|X1=850|Y1=20|X2=1090|Y2=20|UniqueID=XOWHALBC
+|RECORD=4|OwnerIndex=1|IndexInSheet=25|OwnerPartId=-1|Location.X=885|Location.Y=21|Color=8388608|FontID=1|Text==VariantName|UniqueID=AKRRXZGT
+|RECORD=4|OwnerIndex=1|IndexInSheet=26|OwnerPartId=-1|Location.X=904|FontID=1|Text=Date:|UniqueID=NCDCDSKL
+|RECORD=4|OwnerIndex=1|IndexInSheet=27|OwnerPartId=-1|Location.X=900|Location.Y=11|Color=8388608|FontID=1|Text=-|UniqueID=CGAASBKK
+|RECORD=4|OwnerIndex=1|IndexInSheet=28|OwnerPartId=-1|Location.X=853|Location.Y=21|FontID=1|Text=Variant:|UniqueID=LKVOVLQQ
+|RECORD=30|OwnerIndex=1|IndexInSheet=29|OwnerPartId=-1|Location.X=1091|Location.Y=9|Corner.X=1148|Corner.X_Frac=70017|Corner.Y=41|Corner.Y_Frac=13900|KeepAspect=T|EmbedImage=T|FileName=C:\ST-Logo-Ico.png|UniqueID=DWURTDLH
+|RECORD=4|IndexInSheet=1|OwnerPartId=-1|Location.X=40|Location.Y=570|Color=8388608|FontID=3|Text=Table of contents|UniqueID=SEZXYLME
+|RECORD=4|IndexInSheet=2|OwnerPartId=-1|Location.X=620|Location.Y=570|Color=8388608|FontID=3|Text=Legend|UniqueID=DKEUKAKZ
+|RECORD=4|IndexInSheet=3|OwnerPartId=-1|Location.X=640|Location.Y=540|Color=8388608|FontID=1|Text=General comment such as function title, configuration, ...|UniqueID=ZGGNDSXC
+|RECORD=4|IndexInSheet=4|OwnerPartId=-1|Location.X=640|Location.Y=520|Color=13278208|FontID=1|Text=Text to be added to silkscreen.|UniqueID=MMZGYTSZ
+|RECORD=4|IndexInSheet=5|OwnerPartId=-1|Location.X=60|Location.Y=540|Color=8388608|FontID=5|Text=Sheet 1: Project overview (this page)|UniqueID=UTINCMLZ
+|RECORD=4|IndexInSheet=6|OwnerPartId=-1|Location.X=60|Location.Y=520|Color=8388608|FontID=5|Text=Sheet 2: Top|UniqueID=XQKLGWFC
+|RECORD=6|IndexInSheet=7|OwnerPartId=-1|LineWidth=1|Color=8388608|LocationCount=2|X1=40|Y1=560|X2=520|Y2=560|UniqueID=MVRMWYDZ
+|RECORD=6|IndexInSheet=8|OwnerPartId=-1|LineWidth=1|Color=8388608|LocationCount=2|X1=620|Y1=560|X2=1100|Y2=560|UniqueID=GXLLMGGK
+|RECORD=6|IndexInSheet=9|OwnerPartId=-1|LineWidth=1|Color=8388608|LocationCount=2|X1=40|Y1=680|X2=1100|Y2=680|UniqueID=SFZRSWWN
+|RECORD=4|IndexInSheet=10|OwnerPartId=-1|Location.X=40|Location.Y=690|Color=8388608|FontID=4|Text==Board_Name|UniqueID=UGQNHMVP
+|RECORD=6|IndexInSheet=11|OwnerPartId=-1|LineWidth=1|Color=8388608|LocationCount=2|X1=40|Y1=620|X2=1100|Y2=620|UniqueID=HWUCBFCW
+|RECORD=4|IndexInSheet=12|OwnerPartId=-1|Location.X=40|Location.Y=630|Color=8388608|FontID=3|Text==Board_Reference|UniqueID=QIGEAANQ
+|RECORD=4|IndexInSheet=13|OwnerPartId=-1|Location.X=60|Location.Y=500|Color=8388608|FontID=5|Text=Sheet 3: STM32 MPU I/Os|UniqueID=JASBXOKP
+|RECORD=4|IndexInSheet=14|OwnerPartId=-1|Location.X=60|Location.Y=480|Color=8388608|FontID=5|Text=Sheet 4: STM32 MPU power|UniqueID=YDRQIQSU
+|RECORD=4|IndexInSheet=15|OwnerPartId=-1|Location.X=60|Location.Y=420|Color=8388608|FontID=5|Text=Sheet 7: Ethernet1 - RMII - WoL support|UniqueID=BWDPLEIM
+|RECORD=4|IndexInSheet=16|OwnerPartId=-1|Location.X=60|Location.Y=440|Color=8388608|FontID=5|Text=Sheet 6: DDR3L 16bits|UniqueID=CCAKPSNU
+|RECORD=4|IndexInSheet=17|OwnerPartId=-1|Location.X=60|Location.Y=460|Color=8388608|FontID=5|Text=Sheet 5: Board power|UniqueID=TZDHTUST
+|RECORD=4|IndexInSheet=18|OwnerPartId=-1|Location.X=60|Location.Y=400|Color=8388608|FontID=5|Text=Sheet 8: Ethernet2 - RMII|UniqueID=MFDYOMNA
+|RECORD=4|IndexInSheet=19|OwnerPartId=-1|Location.X=640|Location.Y=500|Color=255|FontID=1|Text=Warning text.|UniqueID=QMCEWXFF
+|RECORD=6|IndexInSheet=20|OwnerPartId=-1|LineWidth=1|Color=8388608|LocationCount=2|X1=620|Y1=360|X2=1100|Y2=360|UniqueID=RGYUNAZG
+|RECORD=4|IndexInSheet=21|OwnerPartId=-1|Location.X=620|Location.Y=370|Color=8388608|FontID=3|Text=Open Platform License Agreement|UniqueID=QXXJMKBH
+|RECORD=4|IndexInSheet=22|OwnerPartId=-1|Location.X=640|Location.Y=340|Color=8388608|FontID=1|%UTF8%Text=The Open Platform License Agreement (‚ÄúAgreement‚Äù) is a binding legal contract between you ("You")|||Text=The Open Platform License Agreement (ìAgreementî) is a binding legal contract between you ("You")|UniqueID=EKDGAKYQ
+|RECORD=4|IndexInSheet=23|OwnerPartId=-1|Location.X=640|Location.Y=320|Color=8388608|FontID=1|%UTF8%Text=and STMicroelectronics International N.V. (‚ÄúST‚Äù), a company incorporated under the laws of the|||Text=and STMicroelectronics International N.V. (ìSTî), a company incorporated under the laws of the|UniqueID=PATDPJXV
+|RECORD=4|IndexInSheet=24|OwnerPartId=-1|Location.X=640|Location.Y=300|Color=8388608|FontID=1|Text=Netherlands acting for the purpose of this Agreement through its Swiss branch 39, Chemin du|UniqueID=TXQNVXFM
+|RECORD=4|IndexInSheet=25|OwnerPartId=-1|Location.X=640|Location.Y=280|Color=8388608|FontID=1|Text=Champ des Filles, 1228 Plan-les-Ouates, Geneva, Switzerland.|UniqueID=FXHRPENG
+|RECORD=4|IndexInSheet=26|OwnerPartId=-1|Location.X=640|Location.Y=250|Color=8388608|FontID=1|Text=By using the enclosed reference designs, schematics, PC board layouts, and documentation, in hardcopy|UniqueID=LUZLUZEH
+|RECORD=4|IndexInSheet=27|OwnerPartId=-1|Location.X=640|Location.Y=230|Color=8388608|FontID=1|%UTF8%Text=or CAD tool file format (collectively, the ‚ÄúReference Material‚Äù), You are agreeing to be bound by|||Text=or CAD tool file format (collectively, the ìReference Materialî), You are agreeing to be bound by|UniqueID=HIFMGWQH
+|RECORD=4|IndexInSheet=28|OwnerPartId=-1|Location.X=640|Location.Y=210|Color=8388608|FontID=1|Text=the terms and conditions of this Agreement. Do not use the Reference Material until You have read|UniqueID=ZBPPUNMG
+|RECORD=4|IndexInSheet=29|OwnerPartId=-1|Location.X=640|Location.Y=190|Color=8388608|FontID=1|Text=and agreed to this Agreement terms and conditions. The use of the Reference Material automatically|UniqueID=FQBDCHBK
+|RECORD=4|IndexInSheet=30|OwnerPartId=-1|Location.X=640|Location.Y=170|Color=8388608|FontID=1|Text=implies the acceptance of the Agreement terms and conditions.|UniqueID=NNSVJMBU
+|RECORD=4|IndexInSheet=31|OwnerPartId=-1|Location.X=640|Location.Y=140|Color=8388608|FontID=1|Text=The complete Open Platform License Agreement can be found on www.st.com/opla.|UniqueID=TJFNSSGI
+|RECORD=15|IndexInSheet=32|OwnerPartId=-1|Location.X=640|Location.Y=60|XSize=120|YSize=30|Color=128|AreaColor=8454016|IsSolid=T|UniqueID=CXWVUJTI|SymbolType=Normal
+|RECORD=32|OwnerIndex=63|IndexInSheet=-1|OwnerPartId=-1|Location.X=640|Location.Y=70|Color=8388608|FontID=1|Text=U_Top|UniqueID=HARNOYMX
+|RECORD=33|OwnerIndex=63|IndexInSheet=-1|OwnerPartId=-1|Location.X=640|Location.Y=60|Color=8388608|FontID=1|Text=MB1635-TOP.SchDoc|UniqueID=GVZSDVYN
+|RECORD=41|IndexInSheet=33|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Name=ConfigurationParameters|ReadOnlyState=1|UniqueID=BISYNOEB
+|RECORD=41|IndexInSheet=34|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Name=ConfiguratorName|ReadOnlyState=1|UniqueID=JESDLRQI
+|RECORD=41|IndexInSheet=35|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Name=VersionControl_RevNumber|ReadOnlyState=1|UniqueID=LTYBOICF
+|RECORD=41|IndexInSheet=36|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Name=IsUserConfigurable|ReadOnlyState=1|UniqueID=OWFHSPCD
+|RECORD=41|IndexInSheet=37|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Name=VersionControl_ProjFolderRevNumber|ReadOnlyState=1|UniqueID=QYWQUIEW
+|RECORD=41|IndexInSheet=38|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Not used|Name=CurrentTime|ReadOnlyState=1|UniqueID=SEBVMCDS
+|RECORD=41|IndexInSheet=39|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Not used|Name=CurrentDate|ReadOnlyState=1|UniqueID=VNPUDBZZ
+|RECORD=41|IndexInSheet=40|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Not used|Name=Time|ReadOnlyState=1|UniqueID=OFPNRTUT
+|RECORD=41|IndexInSheet=41|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Not used|Name=Date|ReadOnlyState=1|UniqueID=EYOPPFPG
+|RECORD=41|IndexInSheet=42|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Not used|Name=DocumentFullPathAndName|ReadOnlyState=1|UniqueID=BIPJROXF
+|RECORD=41|IndexInSheet=43|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Not used|Name=DocumentName|ReadOnlyState=1|UniqueID=UBLTXBTN
+|RECORD=41|IndexInSheet=44|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Not used|Name=ModifiedDate|ReadOnlyState=1|UniqueID=PTZQDJFY
+|RECORD=41|IndexInSheet=45|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Not used|Name=ApprovedBy|ReadOnlyState=1|UniqueID=KHQNOOCQ
+|RECORD=41|IndexInSheet=46|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Not used|Name=CheckedBy|ReadOnlyState=1|UniqueID=YJSVMQHA
+|RECORD=41|IndexInSheet=47|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Not used|Name=Author|ReadOnlyState=1|UniqueID=IJTQIBWC
+|RECORD=41|IndexInSheet=48|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=STMicroelectronics|Name=CompanyName|ReadOnlyState=1|UniqueID=EBZVFZCR
+|RECORD=41|IndexInSheet=49|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Not used|Name=DrawnBy|ReadOnlyState=1|UniqueID=DQYJXJRG
+|RECORD=41|IndexInSheet=50|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Not used|Name=Engineer|ReadOnlyState=1|UniqueID=YUVOJYBZ
+|RECORD=41|IndexInSheet=51|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Not used|Name=Organization|ReadOnlyState=1|UniqueID=LZHUQOQJ
+|RECORD=41|IndexInSheet=52|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Not used|Name=Address1|ReadOnlyState=1|UniqueID=LNIMOGKZ
+|RECORD=41|IndexInSheet=53|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Not used|Name=Address2|ReadOnlyState=1|UniqueID=GBRVRYCY
+|RECORD=41|IndexInSheet=54|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Not used|Name=Address3|ReadOnlyState=1|UniqueID=SMRNFITG
+|RECORD=41|IndexInSheet=55|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Not used|Name=Address4|ReadOnlyState=1|UniqueID=ZAKGRIAO
+|RECORD=41|IndexInSheet=56|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Project overview|Name=Title|ReadOnlyState=1|UniqueID=APYJAERR
+|RECORD=41|IndexInSheet=57|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=1|Name=DocumentNumber|ReadOnlyState=1|UniqueID=KWIIGGHN
+|RECORD=41|IndexInSheet=58|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Not used|Name=Revision|ReadOnlyState=1|UniqueID=WJBDXCDC
+|RECORD=41|IndexInSheet=59|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=1|Name=SheetNumber|ReadOnlyState=1|UniqueID=UCNOWEHX
+|RECORD=41|IndexInSheet=60|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=17|Name=SheetTotal|ReadOnlyState=1|UniqueID=ADUCZSXO
+|RECORD=41|IndexInSheet=61|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Not used|Name=ImagePath|ReadOnlyState=1|UniqueID=VZDJALAT
+|RECORD=41|IndexInSheet=62|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Not used|Name=ProjectName|ReadOnlyState=1|UniqueID=SWJHHXQY
+|RECORD=41|IndexInSheet=63|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=Not used|Name=Application_BuildNumber|ReadOnlyState=1|UniqueID=LVPYRDUF
+|RECORD=41|IndexInSheet=64|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=Rule|ReadOnlyState=1|UniqueID=OKHCLFNE
+|RECORD=4|IndexInSheet=65|OwnerPartId=-1|Location.X=60|Location.Y=380|Color=8388608|FontID=5|Text=Sheet 9: WLAN & Bluetooth|UniqueID=ZVVKIYOM
+|RECORD=4|IndexInSheet=66|OwnerPartId=-1|Location.X=60|Location.Y=360|Color=8388608|FontID=5|Text=Sheet 10: LCD 4.3"|UniqueID=KSVCPNVP
+|RECORD=4|IndexInSheet=67|OwnerPartId=-1|Location.X=60|Location.Y=300|Color=8388608|FontID=5|Text=Sheet 13: USB Type-C DRP|UniqueID=BVMPFXVR
+|RECORD=4|IndexInSheet=68|OwnerPartId=-1|Location.X=60|Location.Y=320|Color=8388608|FontID=5|Text=Sheet 12: USB Host HUB|UniqueID=FFGXTNEL
+|RECORD=4|IndexInSheet=69|OwnerPartId=-1|Location.X=60|Location.Y=340|Color=8388608|FontID=5|Text=Sheet 11: CSI camera bridge|UniqueID=BEOTCBPK
+|RECORD=4|IndexInSheet=70|OwnerPartId=-1|Location.X=60|Location.Y=280|Color=8388608|FontID=5|Text=Sheet 14: Expansion connector|UniqueID=FTSGFBKT
+|RECORD=4|IndexInSheet=71|OwnerPartId=-1|Location.X=60|Location.Y=260|Color=8388608|FontID=5|Text=Sheet 15: Peripherals|UniqueID=ZKRIJIHC
+|RECORD=4|IndexInSheet=72|OwnerPartId=-1|Location.X=60|Location.Y=240|Color=8388608|FontID=5|Text=Sheet 16: IO expander|UniqueID=AEFCRQTX
+|RECORD=4|IndexInSheet=73|OwnerPartId=-1|Location.X=60|Location.Y=220|Color=8388608|FontID=5|Text=Sheet 17: ST-LINK V3E|UniqueID=NKALZCMA
+|RECORD=209|IndexInSheet=74|OwnerPartId=-1|Location.X=640|Location.Y=450|Corner.X=740|Corner.Y=490|AreaColor=9895935|FontID=1|IsSolid=T|ShowBorder=T|Alignment=1|WordWrap=T|ClipToRect=T|Text=Notes to generate the board layout.|TextMargin=5|Author=Author|UniqueID=XLSYVMSO

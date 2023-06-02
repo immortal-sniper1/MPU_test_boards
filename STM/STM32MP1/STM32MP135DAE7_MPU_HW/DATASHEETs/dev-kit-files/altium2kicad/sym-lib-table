@@ -1,0 +1,13 @@
+(sym_lib_table
+  (lib (name Expansion_Connector-SchDoc-rescue)(type Legacy)(uri ${KIPRJMOD}/Expansion_Connector-SchDoc-rescue.lib)(options "")(descr ""))
+  (lib (name DDR3L_16bits-SchDoc-rescue)(type Legacy)(uri ${KIPRJMOD}/DDR3L_16bits-SchDoc-rescue.lib)(options "")(descr ""))
+  (lib (name LCD4.3-SchDoc-rescue)(type Legacy)(uri ${KIPRJMOD}/LCD4.3-SchDoc-rescue.lib)(options "")(descr ""))
+  (lib (name ST-Link_V3E-SchDoc-rescue)(type Legacy)(uri ${KIPRJMOD}/ST-Link_V3E-SchDoc-rescue.lib)(options "")(descr ""))
+  (lib (name Power_MPU-SchDoc-rescue)(type Legacy)(uri ${KIPRJMOD}/Power_MPU-SchDoc-rescue.lib)(options "")(descr ""))
+  (lib (name Power_Board-SchDoc-rescue)(type Legacy)(uri ${KIPRJMOD}/Power_Board-SchDoc-rescue.lib)(options "")(descr ""))
+  (lib (name MP135_11x11-SchDoc-rescue)(type Legacy)(uri ${KIPRJMOD}/MP135_11x11-SchDoc-rescue.lib)(options "")(descr ""))
+  (lib (name MCP_IO_expander-SchDoc-rescue)(type Legacy)(uri ${KIPRJMOD}/MCP_IO_expander-SchDoc-rescue.lib)(options "")(descr ""))
+  (lib (name Ethernet2_RMII-SchDoc-rescue)(type Legacy)(uri ${KIPRJMOD}/Ethernet2_RMII-SchDoc-rescue.lib)(options "")(descr ""))
+  (lib (name Ethernet1_RMII-SchDoc-rescue)(type Legacy)(uri ${KIPRJMOD}/Ethernet1_RMII-SchDoc-rescue.lib)(options "")(descr ""))
+  (lib (name CSI_Camera_Bridge-SchDoc-rescue)(type Legacy)(uri ${KIPRJMOD}/CSI_Camera_Bridge-SchDoc-rescue.lib)(options "")(descr ""))
+)

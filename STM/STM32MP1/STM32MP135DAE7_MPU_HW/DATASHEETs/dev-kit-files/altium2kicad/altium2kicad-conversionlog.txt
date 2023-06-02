@@ -1,0 +1,337 @@
+Archive:  db/21964.zip
+  inflating: db/21964/CSI_Camera_Bridge.SchDoc  
+  inflating: db/21964/DDR3L_16bits.SchDoc  
+  inflating: db/21964/Ethernet1_RMII.SchDoc  
+  inflating: db/21964/Ethernet2_RMII.SchDoc  
+  inflating: db/21964/Expansion_Connector.SchDoc  
+  inflating: db/21964/LCD4.3.SchDoc  
+  inflating: db/21964/MB1635-TOP.SchDoc  
+  inflating: db/21964/MB1635.OutJob  
+  inflating: db/21964/MB1635.PcbDoc  
+  inflating: db/21964/MB1635.PrjPcb  
+  inflating: db/21964/MB1635.PrjPcbStructure  
+  inflating: db/21964/MB1635.PrjPcbVariants  
+  inflating: db/21964/MB1635_Project_Overview.SchDoc  
+  inflating: db/21964/MCP_IO_expander.SchDoc  
+  inflating: db/21964/MP135_11x11.SchDoc  
+  inflating: db/21964/Peripherals.SchDoc  
+  inflating: db/21964/Power_Board.SchDoc  
+  inflating: db/21964/Power_MPU.SchDoc  
+  inflating: db/21964/ST-Link_V3E.SchDoc  
+  inflating: db/21964/USB_Host_Hub.SchDoc  
+  inflating: db/21964/USB_TypeC_DRP.SchDoc  
+  inflating: db/21964/WLAN_BLUETOOTH.SchDoc  
+Loading CSI_Camera_Bridge.SchDoc
+
+Loading DDR3L_16bits.SchDoc
+
+Loading Ethernet1_RMII.SchDoc
+
+Loading Ethernet2_RMII.SchDoc
+
+Loading Expansion_Connector.SchDoc
+
+Loading LCD4.3.SchDoc
+
+Loading MB1635-TOP.SchDoc
+
+Loading MB1635_Project_Overview.SchDoc
+
+Loading MCP_IO_expander.SchDoc
+
+Loading MP135_11x11.SchDoc
+
+Loading Peripherals.SchDoc
+
+Loading Power_Board.SchDoc
+
+Loading Power_MPU.SchDoc
+
+Loading ST-Link_V3E.SchDoc
+
+Loading USB_Host_Hub.SchDoc
+
+Loading USB_TypeC_DRP.SchDoc
+
+Loading WLAN_BLUETOOTH.SchDoc
+
+Loading MB1635.PcbDoc
+
+Done.
+Handling MB1635-PcbDoc/Root Entry/Board6/Data.dat
+ASCII-MB1635-PcbDoc.PcbDoc exists?
+Writing to MB1635-PcbDoc/Root Entry/Board6/Data.dat.txt
+Writing to MB1635-PcbDoc/Root Entry/Models/Data.dat.txt
+Writing to MB1635-PcbDoc/Root Entry/UniqueIDPrimitiveInformation/Data.dat.txt
+Writing to MB1635-PcbDoc/Root Entry/Rules6/Data.dat.txt
+Writing to MB1635-PcbDoc/Root Entry/Classes6/Data.dat.txt
+Writing PCB to MB1635-PcbDoc.kicad_pcb
+Writing to MB1635-PcbDoc/Root Entry/Nets6/Data.dat.txt
+Writing to MB1635-PcbDoc/Root Entry/Components6/Data.dat.txt
+Pads6...
+Writing to MB1635-PcbDoc/Root Entry/ComponentBodies6/Data.dat.txt
+NOT FOUND: SOT23-3_TO-236AB.wrl
+NOT FOUND: LED_0603_ORANGE_H0P4.wrl
+NOT FOUND: LED_0603_RED.wrl
+NOT FOUND: LED_0603_GREEN.wrl
+NOT FOUND: MOLEX_105017-0001.wrl
+NOT FOUND: TSW-120-07-G-D.wrl
+NOT FOUND: TSW-107-07-G-D.wrl
+NOT FOUND: TSW-104-07-G-S.wrl
+NOT FOUND: MOLEX_53047-0210.wrl
+NOT FOUND: 5051104091.wrl
+NOT FOUND: Capacitors_0201_H0P3.wrl
+NOT FOUND: C0402.wrl
+NOT FOUND: C0603.wrl
+NOT FOUND: R0402.wrl
+NOT FOUND: 0201.wrl
+NOT FOUND: SOT23-5L.wrl
+NOT FOUND: R0603.wrl
+NOT FOUND: User Library-Power_Flat_5x6.wrl
+NOT FOUND: L1210_LQH.wrl
+NOT FOUND: L0603.wrl
+NOT FOUND: IND2520.wrl
+NOT FOUND: DCU8.wrl
+NOT FOUND: VQFN24-EPAD.wrl
+NOT FOUND: User Library-DFN8N_65.wrl
+NOT FOUND: VFBGA96.wrl
+NOT FOUND: User Library-UFQFPN28-1.wrl
+NOT FOUND: User Library-JEDEC-MO-194.wrl
+NOT FOUND: SO8.wrl
+NOT FOUND: QFN8-EPAD-3X3-P065.wrl
+NOT FOUND: QFN36-EPAD_6X6_P050.wrl
+NOT FOUND: User Library-QFN 28-Pin 0_65mm Pitch.wrl
+NOT FOUND: User Library-QFN12_3x3x0_8.wrl
+NOT FOUND: SOT23-6.wrl
+NOT FOUND: SOD323.wrl
+NOT FOUND: NX2016.wrl
+NOT FOUND: 2012670005.wrl
+NOT FOUND: c-1-1734248-5-e-3d.wrl
+NOT FOUND: DUAL-USB-TYPE-A.wrl
+NOT FOUND: C1206_3216D.wrl
+Writing to MB1635-PcbDoc/Root Entry/ShapeBasedComponentBodies6/Data.dat.txt
+Writing to MB1635-PcbDoc/Root Entry/Components6/Data.dat.txt
+Writing to MB1635-PcbDoc/Root Entry/Arcs6/Data.dat.txt
+Writing to MB1635-PcbDoc/Root Entry/Vias6/Data.dat.txt
+Writing to MB1635-PcbDoc/Root Entry/Polygons6/Data.dat.txt
+Writing to MB1635-PcbDoc/Root Entry/Tracks6/Data.dat.txt
+Writing to MB1635-PcbDoc/Root Entry/Dimensions6/Data.dat.txt
+Writing to MB1635-PcbDoc/Root Entry/FileVersionInfo/Data.dat.txt
+Writing to MB1635-PcbDoc/Root Entry/Fills6/Data.dat.txt
+Writing to MB1635-PcbDoc/Root Entry/Regions6/Data.dat.txt
+Overflow: verts:436 ver:180 vpos:2884 length:2884 !
+Overflow: verts:405 ver:149 vpos:2388 length:2388 !
+Overflow: verts:19551 ver:95 vpos:1524 length:1524 !
+Overflow: verts:1182 ver:158 vpos:2532 length:2532 !
+Overflow: verts:304 ver:48 vpos:772 length:772 !
+Overflow: verts:306 ver:50 vpos:804 length:804 !
+Overflow: verts:373 ver:117 vpos:1876 length:1876 !
+Overflow: verts:268 ver:12 vpos:196 length:196 !
+Overflow: verts:24375 ver:55 vpos:884 length:884 !
+Overflow: verts:272 ver:16 vpos:260 length:260 !
+Overflow: verts:19551 ver:95 vpos:1524 length:1524 !
+Overflow: verts:19551 ver:95 vpos:1524 length:1524 !
+Overflow: verts:501 ver:245 vpos:3924 length:3924 !
+Overflow: verts:470 ver:214 vpos:3428 length:3428 !
+Overflow: verts:415 ver:159 vpos:2548 length:2548 !
+Overflow: verts:306 ver:50 vpos:804 length:804 !
+Overflow: verts:10018 ver:34 vpos:548 length:548 !
+Overflow: verts:638 ver:126 vpos:2020 length:2020 !
+Overflow: verts:262 ver:6 vpos:100 length:100 !
+Overflow: verts:33024 ver:0 vpos:4 length:4 !
+Overflow: verts:33024 ver:0 vpos:4 length:4 !
+Overflow: verts:31488 ver:0 vpos:4 length:4 !
+Overflow: verts:31488 ver:0 vpos:4 length:4 !
+Texts6...
+Unmapped Layers:
+"KEEPOUT"=>"Eco1.User","MECHANICAL21"=>"Eco1.User","MECHANICAL20"=>"Eco1.User"
+Handling CSI_Camera_Bridge-SchDoc/Root Entry/FileHeader.dat
+ERROR: ST-Logo-Ico.png not found!
+WARNING: Elliptical arcs are not supported in KiCad - creating circular arc using average radius instead
+WARNING: Elliptical arcs are not supported in KiCad - creating circular arc using average radius instead
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+Handling DDR3L_16bits-SchDoc/Root Entry/FileHeader.dat
+ERROR: ST-Logo-Ico.png not found!
+Handling Ethernet1_RMII-SchDoc/Root Entry/FileHeader.dat
+ERROR: ST-Logo-Ico.png not found!
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+Handling Ethernet2_RMII-SchDoc/Root Entry/FileHeader.dat
+ERROR: ST-Logo-Ico.png not found!
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+Handling Expansion_Connector-SchDoc/Root Entry/FileHeader.dat
+ERROR: ST-Logo-Ico.png not found!
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+Handling LCD4.3-SchDoc/Root Entry/FileHeader.dat
+ERROR: ST-Logo-Ico.png not found!
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+Unhandled Record type without: 7  (#1321)
+Handling MB1635-PcbDoc/Root Entry/FileHeader.dat
+Handling MB1635-TOP-SchDoc/Root Entry/FileHeader.dat
+ERROR: ST-Logo-Ico.png not found!
+Handling MB1635_Project_Overview-SchDoc/Root Entry/FileHeader.dat
+ERROR: ST-Logo-Ico.png not found!
+Handling MCP_IO_expander-SchDoc/Root Entry/FileHeader.dat
+ERROR: ST-Logo-Ico.png not found!
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+Handling MP135_11x11-SchDoc/Root Entry/FileHeader.dat
+ERROR: ST-Logo-Ico.png not found!
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+Unhandled Record type within: 34
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+Handling Peripherals-SchDoc/Root Entry/FileHeader.dat
+ERROR: ST-Logo-Ico.png not found!
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+Handling Power_Board-SchDoc/Root Entry/FileHeader.dat
+ERROR: ST-Logo-Ico.png not found!
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Elliptical arcs are not supported in KiCad - creating circular arc using average radius instead
+Handling Power_MPU-SchDoc/Root Entry/FileHeader.dat
+ERROR: ST-Logo-Ico.png not found!
+Handling ST-Link_V3E-SchDoc/Root Entry/FileHeader.dat
+ERROR: ST-Logo-Ico.png not found!
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+Handling USB_Host_Hub-SchDoc/Root Entry/FileHeader.dat
+ERROR: ST-Logo-Ico.png not found!
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+Unhandled Record type within: 34
+Handling USB_TypeC_DRP-SchDoc/Root Entry/FileHeader.dat
+ERROR: st_logo3.png not found!
+WARNING: Elliptical arcs are not supported in KiCad - creating circular arc using average radius instead
+WARNING: Elliptical arcs are not supported in KiCad - creating circular arc using average radius instead
+WARNING: Elliptical arcs are not supported in KiCad - creating circular arc using average radius instead
+WARNING: Elliptical arcs are not supported in KiCad - creating circular arc using average radius instead
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+Handling WLAN_BLUETOOTH-SchDoc/Root Entry/FileHeader.dat
+ERROR: ST-Logo-Ico.png not found!
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+WARNING: Port orientation may be incorrect and thus unconnected - ports on the 'left' of wires may need moving and orientation flipping
+Handling CSI_Camera_Bridge.SchDoc
+Handling DDR3L_16bits.SchDoc
+Handling Ethernet1_RMII.SchDoc
+Handling Ethernet2_RMII.SchDoc
+Handling Expansion_Connector.SchDoc
+Handling LCD4.3.SchDoc
+Handling MB1635-TOP.SchDoc
+Handling MB1635_Project_Overview.SchDoc
+Handling MCP_IO_expander.SchDoc
+Handling MP135_11x11.SchDoc
+Handling Peripherals.SchDoc
+Handling Power_Board.SchDoc
+Handling Power_MPU.SchDoc
+Handling ST-Link_V3E.SchDoc
+Handling USB_Host_Hub.SchDoc
+Handling USB_TypeC_DRP.SchDoc
+Handling WLAN_BLUETOOTH.SchDoc

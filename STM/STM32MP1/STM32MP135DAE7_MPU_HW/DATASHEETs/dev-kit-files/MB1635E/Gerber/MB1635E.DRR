@@ -1,0 +1,36 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: MB1635.PcbDoc   28/07/2022  14:12:44
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : MB1635E-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : MB1635E-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : MB1635E-SlotHoles-Plated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T2      0.2mm (8mil)                                              Round             276       PTH        0.00mm (0.00inch)
+T3      0.25mm (10mil)                                            Round             1438      PTH        0.00mm (0.00inch)
+T4      0.5mm (20mil)           +/-0.05mm (2mil)                  Round             2         PTH        0.00mm (0.00inch)
+T5      0.6mm (24mil)                                             Slot              10        PTH        0.00mm (0.00inch)
+T6      0.9mm (35mil)                                             Round             10        PTH        0.00mm (0.00inch)
+T7      0.92mm (36mil)                                            Round             16        PTH        0.00mm (0.00inch)
+T8      1mm (39mil)                                               Round             62        PTH        0.00mm (0.00inch)
+T9      2.33mm (92mil)                                            Round             8         PTH        0.00mm (0.00inch)
+T10     3.25mm (128mil)                                           Round             4         PTH        0.00mm (0.00inch)
+T11     3.5mm (138mil)                                            Round             6         PTH        0.00mm (0.00inch)
+T12     1mm (39mil)                                               Round             2         NPTH       0.00mm (0.00inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              1834
+Layer Pair : Top Layer to Signal Layer 1
+ASCII Plated RoundHoles File : MB1635E-RoundHoles-Plated.TX1
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.1mm (4mil)                                              Round             29        PTH        0.00mm (0.00inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              29
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              1863
+
+Total Processing Time (hh:mm:ss) : 00:00:02

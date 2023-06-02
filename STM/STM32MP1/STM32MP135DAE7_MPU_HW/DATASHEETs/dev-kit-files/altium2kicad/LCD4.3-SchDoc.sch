@@ -1,0 +1,1135 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 1 1
+Title "LCD4.3-SchDoc"
+Date "15 04 2023"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 10220 11000 0    60   ~ 0
+10
+Text Notes 10480 11000 0    60   ~ 0
+17
+Text Notes 8760 10590 0    60   ~ 12
+LCD 4.3"
+Wire Notes Line
+	8500 10600 10900 10600
+Wire Notes Line
+	10900 10700 8500 10700
+Wire Notes Line
+	9000 11000 9000 10900
+Wire Notes Line
+	9900 11000 9900 10800
+Wire Notes Line
+	10900 11000 10900 10500
+Text Notes 8530 10590 0    60   ~ 0
+Title:
+Text Notes 8530 11000 0    60   ~ 0
+Size:
+Text Notes 9950 10890 0    60   ~ 0
+Reference:
+Text Notes 9950 11000 0    60   ~ 0
+Sheet:
+Text Notes 10350 11000 0    60   ~ 0
+of
+Text Notes 8730 11000 0    60   ~ 0
+A4
+Wire Notes Line
+	10900 10900 8500 10900
+Text Notes 8530 10890 0    60   ~ 0
+Revision:
+Text Notes 8530 10690 0    60   ~ 0
+Project:
+Wire Notes Line
+	8500 11000 8500 10500
+Wire Notes Line
+	8500 10500 11500 10500
+Text Notes 8840 10690 0    60   ~ 12
+=Board_Name
+Text Notes 10380 10890 0    60   ~ 0
+=Board_Reference
+Text Notes 8930 10890 0    60   ~ 0
+=Board_PCB_Revision
+Text Notes 9030 10890 0    60   ~ 0
+=Board_Assembly_Revision
+Text Notes 9270 11000 0    60   ~ 0
+=Board_Document_Date
+Wire Notes Line
+	10900 10800 8500 10800
+Text Notes 8850 10790 0    60   ~ 0
+=VariantName
+Text Notes 9040 11000 0    60   ~ 0
+Date:
+Text Notes 9000 10890 0    60   ~ 0
+-
+Text Notes 8530 10790 0    60   ~ 0
+Variant:
+Text Label 1700 5300 0 60 ~
+LCD_BL
+Text Label 1600 4300 0 54 ~
+VL
+Text Label 4600 4300 0 54 ~
+VH
+$Comp
+L power:GND #PWR?643B18D9
+U 1 1 643B18D9
+P 1400 9300
+F 0 "GND_55" H 1400 9440 20  0000 C CNN
+F 1 "GND" H 1400 9410 30  0000 C CNN
+F 2 "" H 1400 9300 70  0000 C CNN
+F 3 "" H 1400 9300 70  0000 C CNN
+	1    1400 9300
+	1    0    0    -1  
+$EndComp
+Text Notes 6300 10000 0    60   ~ 0
+Default I2C Address : 1011101X
+Text Label 8300 4300 0 60 ~
+LCD_R[2..7]
+Text HLabel 10300 4500 2 60 BiDi ~
+LCD_HARN
+Text Label 8300 4400 0 60 ~
+LCD_G[2..7]
+Text Label 8300 4500 0 60 ~
+LCD_B[2..7]
+Text Label 8300 4600 0 60 ~
+LCD_HSYNC
+Text Label 8300 4700 0 60 ~
+LCD_VSYNC
+Text Label 8300 4800 0 60 ~
+LCD_CLK
+Text Label 8300 4900 0 60 ~
+LCD_DE
+Text Label 8300 5800 0 60 ~
+LCD_SDA
+Text Label 8300 5700 0 60 ~
+LCD_SCL
+Text Label 8300 5000 0 60 ~
+LCD_BL
+Wire Wire Line
+	7600 7300 8300 7300
+Wire Wire Line
+	7600 7400 8300 7400
+Wire Wire Line
+	7600 7500 8300 7500
+Wire Wire Line
+	7600 7600 8300 7600
+Wire Wire Line
+	7600 7700 8300 7700
+Wire Wire Line
+	7600 7800 8300 7800
+Wire Wire Line
+	7600 8200 8300 8200
+Wire Wire Line
+	7600 8300 8300 8300
+Wire Wire Line
+	7600 8400 8300 8400
+Wire Wire Line
+	7600 8500 8300 8500
+Wire Wire Line
+	7600 8600 8300 8600
+Wire Wire Line
+	7600 8700 8300 8700
+Wire Wire Line
+	7600 9100 8300 9100
+Wire Wire Line
+	7600 9200 8300 9200
+Wire Wire Line
+	7600 9300 8300 9300
+Wire Wire Line
+	7600 9400 8300 9400
+Wire Wire Line
+	7600 9500 8300 9500
+Wire Wire Line
+	7600 9600 8300 9600
+Wire Wire Line
+	5400 8400 6100 8400
+Wire Wire Line
+	5400 8500 6100 8500
+Wire Wire Line
+	6100 8600 5400 8600
+Wire Wire Line
+	5400 8700 6100 8700
+Wire Wire Line
+	5400 7200 6100 7200
+Wire Wire Line
+	5400 7300 6100 7300
+Wire Wire Line
+	5400 7500 6100 7500
+Wire Wire Line
+	5400 7600 6100 7600
+Wire Wire Line
+	3200 4300 3200 4700
+Wire Wire Line
+	3400 4300 3200 4300
+Wire Wire Line
+	1600 5300 2400 5300
+Wire Wire Line
+	3200 5100 3200 5500
+Wire Wire Line
+	3200 5000 3200 5100
+Wire Wire Line
+	5400 7100 6100 7100
+Wire Wire Line
+	2300 5100 2400 5100
+Wire Wire Line
+	8200 5700 9100 5700
+Wire Wire Line
+	9100 5800 8200 5800
+Wire Wire Line
+	8200 4600 9100 4600
+Wire Wire Line
+	8200 4700 9100 4700
+Wire Wire Line
+	8200 4800 9100 4800
+Wire Wire Line
+	8200 4900 9100 4900
+Wire Wire Line
+	8200 5000 9100 5000
+Wire Wire Line
+	1500 4800 1500 4700
+Wire Wire Line
+	1900 4800 1900 4700
+Wire Wire Line
+	1500 4300 1500 4400
+Wire Wire Line
+	1900 4300 1900 4400
+Wire Wire Line
+	1500 5500 1500 5600
+Wire Wire Line
+	3200 5500 3200 5600
+Wire Wire Line
+	1700 6700 1700 6600
+Wire Wire Line
+	4500 4300 4500 4400
+Wire Bus Line
+	9100 4300 8200 4300
+Wire Bus Line
+	9100 4400 8200 4400
+Wire Bus Line
+	9100 4500 8200 4500
+Wire Wire Line
+	2300 4300 2300 4400
+Text Notes 2900 10200 0    60   ~ 0
+PH6
+Text Notes 2900 10100 0    60   ~ 0
+PD1
+Text Notes 2900 6900 0    60   ~ 0
+PG7
+Text Notes 2100 5300 0    60   ~ 0
+PE12
+$Comp
+L power:+5V_VIN #PWR?643B18D8
+U 1 1 643B18D8
+P 900 4300
+F 0 "5V_VIN_2" H 900 4300 20  0000 C CNN
+F 1 "5V_VIN" H 900 4230 30  0000 C CNN
+F 2 "" H 900 4300 70  0000 C CNN
+F 3 "" H 900 4300 70  0000 C CNN
+	1    900 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 4300 900 4300
+Wire Wire Line
+	1500 4300 1400 4300
+Wire Wire Line
+	1900 4300 1500 4300
+Wire Wire Line
+	2300 4300 1900 4300
+Wire Wire Line
+	2600 4300 2300 4300
+Wire Wire Line
+	2600 4800 2600 4300
+Wire Wire Line
+	3200 4800 2600 4800
+Wire Wire Line
+	8200 5100 9100 5100
+Wire Wire Line
+	8200 5400 9100 5400
+Wire Wire Line
+	9100 5500 8200 5500
+Text Label 8300 5400 0 60 ~
+LCD_DISP
+Text Label 8300 5100 0 60 ~
+LCD_INT
+Text Label 8300 5500 0 60 ~
+LCD_RST
+Text GLabel 9100 5400 2 60 Input ~
+LCD_DISP
+Text GLabel 9100 5500 2 60 Input ~
+LCD_RST
+NoConn ~ 7600 7100
+NoConn ~ 7600 7200
+NoConn ~ 7600 8000
+NoConn ~ 7600 8100
+NoConn ~ 7600 8900
+NoConn ~ 7600 9000
+$Comp
+L power:GND #PWR?643B18D7
+U 1 1 643B18D7
+P 2300 5100
+F 0 "GND_56" H 2300 5240 20  0000 C CNN
+F 1 "GND" H 2300 5210 30  0000 C CNN
+F 2 "" H 2300 5100 70  0000 C CNN
+F 3 "" H 2300 5100 70  0000 C CNN
+	1    2300 5100
+	1    0    0    -1  
+$EndComp
+Text Notes 2900 7000 0    60   ~ 0
+PB12
+Text Notes 2900 7100 0    60   ~ 0
+PD14
+Text Notes 2900 7200 0    60   ~ 0
+PE7
+Text Notes 2900 7300 0    60   ~ 0
+PE13
+Text Notes 2900 7400 0    60   ~ 0
+PE9
+Text Notes 2900 7700 0    60   ~ 0
+PH13
+Text Notes 2900 7800 0    60   ~ 0
+PF3
+Text Notes 2900 7900 0    60   ~ 0
+PD5
+Text Notes 2900 8000 0    60   ~ 0
+PG0
+Text Notes 2900 8100 0    60   ~ 0
+PC7
+Text Notes 2900 8200 0    60   ~ 0
+PA15
+Text Notes 2900 8500 0    60   ~ 0
+PD10
+Text Notes 2900 8600 0    60   ~ 0
+PF2
+Text Notes 2900 8700 0    60   ~ 0
+PH14
+Text Notes 2900 8800 0    60   ~ 0
+PE0
+Text Notes 2900 8900 0    60   ~ 0
+PB6
+Text Notes 2900 9000 0    60   ~ 0
+PF1
+Text Notes 2900 9500 0    60   ~ 0
+PG4
+Text Notes 2900 9400 0    60   ~ 0
+PC6
+Text Notes 2900 9200 0    60   ~ 0
+PD9
+Text Notes 2900 10000 0    60   ~ 0
+PF5
+Text Notes 2900 9600 0    60   ~ 0
+PH9
+$Comp
+L power:GND #PWR?643B18D6
+U 1 1 643B18D6
+P 1500 5600
+F 0 "GND_57" H 1500 5740 20  0000 C CNN
+F 1 "GND" H 1500 5710 30  0000 C CNN
+F 2 "" H 1500 5600 70  0000 C CNN
+F 3 "" H 1500 5600 70  0000 C CNN
+	1    1500 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?643B18D5
+U 1 1 643B18D5
+P 3200 5600
+F 0 "GND_58" H 3200 5740 20  0000 C CNN
+F 1 "GND" H 3200 5710 30  0000 C CNN
+F 2 "" H 3200 5600 70  0000 C CNN
+F 3 "" H 3200 5600 70  0000 C CNN
+	1    3200 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?643B18D4
+U 1 1 643B18D4
+P 4500 5600
+F 0 "GND_59" H 4500 5740 20  0000 C CNN
+F 1 "GND" H 4500 5710 30  0000 C CNN
+F 2 "" H 4500 5600 70  0000 C CNN
+F 3 "" H 4500 5600 70  0000 C CNN
+	1    4500 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?643B18D3
+U 1 1 643B18D3
+P 6300 4800
+F 0 "GND_60" H 6300 4940 20  0000 C CNN
+F 1 "GND" H 6300 4910 30  0000 C CNN
+F 2 "" H 6300 4800 70  0000 C CNN
+F 3 "" H 6300 4800 70  0000 C CNN
+	1    6300 4800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4200 4800
+Wire Wire Line
+	4900 4300 4900 4400
+Wire Wire Line
+	5700 4300 5700 4400
+Wire Wire Line
+	4900 4800 4900 4700
+Wire Wire Line
+	5700 4800 5700 4700
+Wire Wire Line
+	5300 4800 5700 4800
+Wire Wire Line
+	4900 4800 5300 4800
+Wire Wire Line
+	4500 4800 4900 4800
+Wire Wire Line
+	4500 4700 4500 4800
+Wire Wire Line
+	6300 4800 6300 4700
+Wire Wire Line
+	5700 4800 6300 4800
+Wire Wire Line
+	4200 4700 4200 4300
+Wire Wire Line
+	4200 4300 3900 4300
+Wire Wire Line
+	4500 4300 4200 4300
+Wire Wire Line
+	4900 4300 4500 4300
+Wire Wire Line
+	5300 4300 4900 4300
+Wire Wire Line
+	5700 4300 5300 4300
+Wire Wire Line
+	5800 4300 5700 4300
+Wire Wire Line
+	3000 5100 2800 5100
+$Comp
+L power:GND #PWR?643B18D2
+U 1 1 643B18D2
+P 1400 9900
+F 0 "GND_61" H 1400 10040 20  0000 C CNN
+F 1 "GND" H 1400 10010 30  0000 C CNN
+F 2 "" H 1400 9900 70  0000 C CNN
+F 3 "" H 1400 9900 70  0000 C CNN
+	1    1400 9900
+	1    0    0    -1  
+$EndComp
+Text Notes 200 3700 0    108   ~ 0
+LCD 4.3"
+Text Notes 2900 9300 0    60   ~ 0
+PI7
+Text Notes 2900 9900 0    60   ~ 0
+PH2
+Text GLabel 9100 5700 2 60 Input ~
+I2C5_SCL
+Text GLabel 9100 5800 2 60 BiDi ~
+I2C5_SDA
+Wire Wire Line
+	4500 5000 4500 5100
+Wire Wire Line
+	4200 5000 4500 5000
+Wire Wire Line
+	2300 4800 2300 4700
+Wire Wire Line
+	1900 4800 2300 4800
+Wire Wire Line
+	1500 4800 1900 4800
+Wire Wire Line
+	1500 5500 1500 4800
+Wire Wire Line
+	3200 5500 1500 5500
+Wire Wire Line
+	4200 5500 3200 5500
+Wire Wire Line
+	4500 5500 4200 5500
+Wire Wire Line
+	4500 5600 4500 5500
+Wire Wire Line
+	6300 4300 6200 4300
+Wire Wire Line
+	6300 4400 6300 4300
+Text Label 2300 6900 0 60 ~
+LCD_R2
+Text Label 2300 7000 0 60 ~
+LCD_R3
+Text Label 2300 7100 0 60 ~
+LCD_R4
+Text Label 2300 7200 0 60 ~
+LCD_R5
+Text Label 2300 7300 0 60 ~
+LCD_R6
+Text Label 2300 7400 0 60 ~
+LCD_R7
+Text Label 2300 7700 0 60 ~
+LCD_G2
+Text Label 2300 7800 0 60 ~
+LCD_G3
+Text Label 2300 7900 0 60 ~
+LCD_G4
+Text Label 2300 8000 0 60 ~
+LCD_G5
+Text Label 2300 8100 0 60 ~
+LCD_G6
+Text Label 2300 8200 0 60 ~
+LCD_G7
+Text Label 2300 8500 0 60 ~
+LCD_B2
+Text Label 2300 8600 0 60 ~
+LCD_B3
+Text Label 2300 8700 0 60 ~
+LCD_B4
+Text Label 2300 8800 0 60 ~
+LCD_B5
+Text Label 2300 8900 0 60 ~
+LCD_B6
+Text Label 2300 9000 0 60 ~
+LCD_B7
+Wire Wire Line
+	2200 6900 3300 6900
+Wire Wire Line
+	2200 7000 3300 7000
+Wire Wire Line
+	2200 7100 3300 7100
+Wire Wire Line
+	2200 7200 3300 7200
+Wire Wire Line
+	2200 7300 3300 7300
+Wire Wire Line
+	2200 7400 3300 7400
+Wire Wire Line
+	2200 7700 3300 7700
+Wire Wire Line
+	2200 7800 3300 7800
+Wire Wire Line
+	2200 7900 3300 7900
+Wire Wire Line
+	2200 8000 3300 8000
+Wire Wire Line
+	2200 8100 3300 8100
+Wire Wire Line
+	2200 8200 3300 8200
+Wire Wire Line
+	2200 8500 3300 8500
+Wire Wire Line
+	2200 8600 3300 8600
+Wire Wire Line
+	2200 8700 3300 8700
+Wire Wire Line
+	2200 8800 3300 8800
+Wire Wire Line
+	2200 8900 3300 8900
+Wire Wire Line
+	2200 9000 3300 9000
+Text Label 2300 9900 0 60 ~
+LCD_RST
+Text Label 2300 10000 0 60 ~
+LCD_INT
+Text Label 2300 10200 0 60 ~
+LCD_SDA
+Text Label 2300 10100 0 60 ~
+LCD_SCL
+Text Label 2300 9200 0 60 ~
+LCD_CLK
+Text Label 2300 9600 0 60 ~
+LCD_DE
+Text Label 2300 6400 0 60 ~
+LCD_BL_A
+Text Label 2300 6300 0 60 ~
+LCD_BL_K
+Text Label 2300 9300 0 60 ~
+LCD_DISP
+Text Label 2300 9400 0 60 ~
+LCD_HSYNC
+Text Label 2300 9500 0 60 ~
+LCD_VSYNC
+Wire Wire Line
+	2200 6300 3300 6300
+Wire Wire Line
+	2200 6400 3300 6400
+Wire Wire Line
+	2200 9200 3300 9200
+Wire Wire Line
+	2200 9400 3300 9400
+Wire Wire Line
+	2200 9500 3300 9500
+Wire Wire Line
+	2200 9600 3300 9600
+Wire Wire Line
+	2200 10100 3300 10100
+Wire Wire Line
+	2200 10200 3300 10200
+NoConn ~ 3300 6700
+NoConn ~ 3300 6800
+NoConn ~ 3300 7500
+NoConn ~ 3300 7600
+NoConn ~ 3300 8300
+NoConn ~ 3300 8400
+$Comp
+L power:GND #PWR?643B18D1
+U 1 1 643B18D1
+P 3200 10300
+F 0 "GND_62" H 3200 10440 20  0000 C CNN
+F 1 "GND" H 3200 10410 30  0000 C CNN
+F 2 "" H 3200 10300 70  0000 C CNN
+F 3 "" H 3200 10300 70  0000 C CNN
+	1    3200 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3_SW #PWR?643B18D0
+U 1 1 643B18D0
+P 1500 6500
+F 0 "3V3_SW_7" H 1500 6500 20  0000 C CNN
+F 1 "3V3_SW" H 1500 6430 30  0000 C CNN
+F 2 "" H 1500 6500 70  0000 C CNN
+F 3 "" H 1500 6500 70  0000 C CNN
+	1    1500 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 6500 3300 6500
+Wire Wire Line
+	3200 9100 3200 6500
+Wire Wire Line
+	7400 4300 6300 4300
+Wire Wire Line
+	6800 5000 4500 5000
+Wire Wire Line
+	6800 4400 6800 5000
+Wire Wire Line
+	7400 4400 6800 4400
+Text Label 6900 4300 0 60 ~
+LCD_BL_A
+Text Label 6900 4400 0 60 ~
+LCD_BL_K
+Wire Wire Line
+	6100 8000 5400 8000
+Wire Wire Line
+	6100 8100 5400 8100
+Wire Wire Line
+	3300 9300 1800 9300
+Wire Wire Line
+	3300 9900 1800 9900
+Wire Wire Line
+	3200 9100 3300 9100
+Wire Wire Line
+	3200 9700 3200 9100
+Wire Wire Line
+	3200 9700 3300 9700
+Wire Wire Line
+	3200 9800 3200 9700
+Wire Wire Line
+	3200 9800 3300 9800
+Wire Wire Line
+	3200 10300 3200 9800
+Wire Wire Line
+	1500 6600 1500 6500
+$Comp
+L power:GND #PWR?643B18CF
+U 1 1 643B18CF
+P 1500 7100
+F 0 "GND_63" H 1500 7240 20  0000 C CNN
+F 1 "GND" H 1500 7210 30  0000 C CNN
+F 2 "" H 1500 7100 70  0000 C CNN
+F 3 "" H 1500 7100 70  0000 C CNN
+	1    1500 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 7100 1700 7000
+Wire Wire Line
+	1500 7100 1700 7100
+Wire Wire Line
+	1300 7100 1500 7100
+Wire Wire Line
+	1300 7000 1300 7100
+Wire Wire Line
+	1300 6600 1300 6700
+Wire Wire Line
+	1500 6600 1300 6600
+Wire Wire Line
+	1700 6600 1500 6600
+Wire Wire Line
+	3300 6600 1700 6600
+$Comp
+L power:GND #PWR?643B18CE
+U 1 1 643B18CE
+P 4200 10200
+F 0 "GND_64" H 4200 10340 20  0000 C CNN
+F 1 "GND" H 4200 10310 30  0000 C CNN
+F 2 "" H 4200 10200 70  0000 C CNN
+F 3 "" H 4200 10200 70  0000 C CNN
+	1    4200 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5300 2800 5300
+Wire Wire Line
+	3000 5100 3000 5300
+Wire Wire Line
+	3000 4900 3000 5100
+Wire Wire Line
+	3200 4900 3000 4900
+Wire Wire Line
+	5300 4400 5300 4300
+Wire Wire Line
+	5300 4800 5300 4700
+$Comp
+L power:GND #PWR?643B18CD
+U 1 1 643B18CD
+P 4200 6300
+F 0 "GND_65" H 4200 6440 20  0000 C CNN
+F 1 "GND" H 4200 6410 30  0000 C CNN
+F 2 "" H 4200 6300 70  0000 C CNN
+F 3 "" H 4200 6300 70  0000 C CNN
+	1    4200 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 9100 5400 9100
+Text Notes 7800 7300 0    60   ~ 0
+LCD_R2
+Text Notes 5500 7100 0    60   ~ 0
+LCD_CLK
+Text Notes 7800 7400 0    60   ~ 0
+LCD_R3
+Text Notes 7800 7500 0    60   ~ 0
+LCD_R4
+Text Notes 7800 7600 0    60   ~ 0
+LCD_R5
+Text Notes 7800 7700 0    60   ~ 0
+LCD_R6
+Text Notes 7800 7800 0    60   ~ 0
+LCD_R7
+Text Notes 7800 8200 0    60   ~ 0
+LCD_G2
+Text Notes 7800 8300 0    60   ~ 0
+LCD_G3
+Text Notes 7800 8400 0    60   ~ 0
+LCD_G4
+Text Notes 7800 8500 0    60   ~ 0
+LCD_G5
+Text Notes 7800 8600 0    60   ~ 0
+LCD_G6
+Text Notes 7800 8700 0    60   ~ 0
+LCD_G7
+Text Notes 7800 9100 0    60   ~ 0
+LCD_B2
+Text Notes 7800 9200 0    60   ~ 0
+LCD_B3
+Text Notes 7800 9300 0    60   ~ 0
+LCD_B4
+Text Notes 7800 9400 0    60   ~ 0
+LCD_B5
+Text Notes 7800 9500 0    60   ~ 0
+LCD_B6
+Text Notes 7800 9600 0    60   ~ 0
+LCD_B7
+NoConn ~ 7600 7300
+NoConn ~ 7600 7400
+NoConn ~ 7600 7500
+NoConn ~ 7600 7600
+NoConn ~ 7600 7700
+NoConn ~ 7600 7800
+NoConn ~ 7600 8200
+NoConn ~ 7600 8300
+NoConn ~ 7600 8400
+NoConn ~ 7600 8500
+NoConn ~ 7600 8600
+NoConn ~ 7600 8700
+NoConn ~ 7600 9100
+NoConn ~ 7600 9200
+NoConn ~ 7600 9300
+NoConn ~ 7600 9400
+NoConn ~ 7600 9500
+NoConn ~ 7600 9600
+Text Notes 5500 7200 0    60   ~ 0
+LCD_HSYNC
+Text Notes 5500 7300 0    60   ~ 0
+LCD_VSYNC
+Text Notes 5500 7500 0    60   ~ 0
+LCD_DE
+Text Notes 5500 7600 0    60   ~ 0
+LCD_DISP
+Text Notes 5500 8000 0    60   ~ 0
+LCD_BL_A
+Text Notes 5500 8100 0    60   ~ 0
+LCD_BL_K
+Text Notes 5500 8400 0    60   ~ 0
+LCD_INT
+Text Notes 5500 8700 0    60   ~ 0
+LCD_RST
+Text Notes 5500 8500 0    60   ~ 0
+LCD_SCL
+Text Notes 5500 8600 0    60   ~ 0
+LCD_SDA
+Text Notes 5500 9100 0    60   ~ 0
+3V3_SW
+Text Notes 5500 9300 0    60   ~ 0
+GND
+Wire Wire Line
+	6100 9300 5400 9300
+Wire Wire Line
+	6100 9400 5400 9400
+Wire Wire Line
+	6100 9500 5400 9500
+Wire Wire Line
+	6100 9600 5400 9600
+Text Notes 5500 9400 0    60   ~ 0
+GND
+Text Notes 5500 9500 0    60   ~ 0
+GND
+Text Notes 5500 9600 0    60   ~ 0
+GND
+NoConn ~ 6100 7100
+NoConn ~ 6100 7200
+NoConn ~ 6100 7500
+NoConn ~ 6100 7600
+NoConn ~ 6100 8000
+NoConn ~ 6100 8100
+NoConn ~ 6100 8400
+NoConn ~ 6100 8500
+NoConn ~ 6100 8600
+NoConn ~ 6100 8700
+NoConn ~ 6100 9300
+NoConn ~ 6100 9400
+NoConn ~ 6100 9500
+NoConn ~ 6100 9600
+NoConn ~ 6100 7300
+NoConn ~ 6100 9100
+Text Label 5000 6400 0 72 ~
+LCD DISPLAY MODULE  WITH FLAT CABLE      
+Text Label 4200 8100 0 60 ~
+INSERT~~~FLAT~CABLE~~~~~~
+Wire Wire Line
+	2000 10000 3300 10000
+Wire Wire Line
+	2000 10100 2000 10000
+Connection ~ 1500 7100
+Connection ~ 1500 6600
+Connection ~ 1500 5500
+Connection ~ 1500 4800
+Connection ~ 1500 4300
+Connection ~ 1700 6600
+Connection ~ 1900 4800
+Connection ~ 1900 4300
+Connection ~ 2300 4300
+Connection ~ 2600 4300
+Connection ~ 3000 5100
+Connection ~ 3200 9800
+Connection ~ 3200 9700
+Connection ~ 3200 9100
+Connection ~ 3200 5500
+Connection ~ 3200 5100
+Connection ~ 3200 4300
+Connection ~ 4200 5500
+Connection ~ 4200 4300
+Connection ~ 4500 5500
+Connection ~ 4500 5000
+Connection ~ 4500 4300
+Connection ~ 4900 4800
+Connection ~ 4900 4300
+Connection ~ 5300 4800
+Connection ~ 5300 4300
+Connection ~ 5700 4800
+Connection ~ 5700 4300
+Connection ~ 6300 4800
+Connection ~ 6300 4300
+$Comp
+L Capacitor C29
+U 1 1 643B18CC
+P 2400 4500
+F 0 "C29" V 2500 4500 60  0000 L BNN
+F 1 "10uF" V 2600 4500 60  0000 L BNN
+F 2 "" H 2600 4500 60  0000 C CNN
+F 3 "" H 2600 4500 60  0000 C CNN
+	1    2400 4500
+	0    1    1    0
+$EndComp
+$Comp
+L STPS1L40M D2
+U 1 1 643B18CB
+P 3400 4300
+F 0 "D2" V 3290 4490 60  0000 L BNN
+F 1 "STPS1L40M" V 3610 4490 60  0000 L BNN
+F 2 "" H 3610 4490 60  0000 C CNN
+F 3 "" H 3610 4490 60  0000 C CNN
+	1    3400 4300
+	0    1    1    0
+$EndComp
+$Comp
+L STLD40DPUR U9
+U 1 1 643B18CA
+P 3400 4600
+F 0 "U9" H 3400 4600 60  0000 L BNN
+F 1 "STLD40DPUR" H 3400 3900 60  0000 L BNN
+F 2 "" H 3400 3900 60  0000 C CNN
+F 3 "" H 3400 3900 60  0000 C CNN
+	1    3400 4600
+	1    0    0    -1
+$EndComp
+$Comp
+L Resistor R44
+U 1 1 643B18C9
+P 4100 5400
+F 0 "R44" V 4210 5270 60  0000 R TNN
+F 1 "100K" V 4110 5270 60  0000 R TNN
+F 2 "" H 4110 5270 60  0000 C CNN
+F 3 "" H 4110 5270 60  0000 C CNN
+	1    4100 5400
+	0    -1   -1   0
+$EndComp
+$Comp
+L Resistor R59
+U 1 1 643B18C8
+P 1500 9200
+F 0 "R59" H 1490 9130 60  0000 L BNN
+F 1 "4K7" H 1490 8970 60  0000 L BNN
+F 2 "" H 1490 8970 60  0000 C CNN
+F 3 "" H 1490 8970 60  0000 C CNN
+	1    1500 9200
+	1    0    0    -1
+$EndComp
+$Comp
+L Resistor R49
+U 1 1 643B18C7
+P 4400 5400
+F 0 "R49" V 4510 5270 60  0000 R TNN
+F 1 "10R" V 4410 5270 60  0000 R TNN
+F 2 "" H 4410 5270 60  0000 C CNN
+F 3 "" H 4410 5270 60  0000 C CNN
+	1    4400 5400
+	0    -1   -1   0
+$EndComp
+$Comp
+L RK043FN78H-CT661C U35
+U 1 1 643B18C6
+P 6300 7000
+F 0 "U35" H 6300 7000 60  0000 L BNN
+F 1 "RK043FN78H-CT661C" H 6300 4200 60  0000 L BNN
+F 2 "" H 6300 4200 60  0000 C CNN
+F 3 "" H 6300 4200 60  0000 C CNN
+	1    6300 7000
+	1    0    0    -1
+$EndComp
+$Comp
+L Resistor R35
+U 1 1 643B18C5
+P 1100 4200
+F 0 "R35" H 1000 4100 60  0000 L BNN
+F 1 "0R" H 1300 4100 60  0000 L BNN
+F 2 "" H 1300 4100 60  0000 C CNN
+F 3 "" H 1300 4100 60  0000 C CNN
+	1    1100 4200
+	1    0    0    -1
+$EndComp
+$Comp
+L Test_Point TP40
+U 1 1 643B18C4
+P 2100 9600
+F 0 "TP40" H 2300 9600 60  0000 R TNN
+	1    2100 9600
+	-1   0    0    1
+$EndComp
+$Comp
+L Test_Point TP37
+U 1 1 643B18C3
+P 2100 9500
+F 0 "TP37" H 2300 9500 60  0000 R TNN
+	1    2100 9500
+	-1   0    0    1
+$EndComp
+$Comp
+L Test_Point TP43
+U 1 1 643B18C2
+P 2100 9400
+F 0 "TP43" H 2300 9400 60  0000 R TNN
+	1    2100 9400
+	-1   0    0    1
+$EndComp
+$Comp
+L Capacitor C51
+U 1 1 643B18C1
+P 5600 4600
+F 0 "C51" V 5610 4410 60  0000 R TNN
+F 1 "4.7uF" V 5510 4410 60  0000 R TNN
+F 2 "" H 5510 4410 60  0000 C CNN
+F 3 "" H 5510 4410 60  0000 C CNN
+	1    5600 4600
+	0    -1   -1   0
+$EndComp
+$Comp
+L Test_Point TP41
+U 1 1 643B18C0
+P 2100 9200
+F 0 "TP41" H 2300 9200 60  0000 R TNN
+	1    2100 9200
+	-1   0    0    1
+$EndComp
+$Comp
+L Test_Point TP42
+U 1 1 643B18BF
+P 1900 10100
+F 0 "TP42" H 2100 10100 60  0000 R TNN
+	1    1900 10100
+	-1   0    0    1
+$EndComp
+$Comp
+L Capacitor C45
+U 1 1 643B18BE
+P 5200 4600
+F 0 "C45" V 5210 4410 60  0000 R TNN
+F 1 "4.7uF" V 5110 4410 60  0000 R TNN
+F 2 "" H 5110 4410 60  0000 C CNN
+F 3 "" H 5110 4410 60  0000 C CNN
+	1    5200 4600
+	0    -1   -1   0
+$EndComp
+$Comp
+L Capacitor C56
+U 1 1 643B18BD
+P 4400 4600
+F 0 "C56" V 4410 4410 60  0000 R TNN
+F 1 "33pF" V 4310 4410 60  0000 R TNN
+F 2 "" H 4310 4410 60  0000 C CNN
+F 3 "" H 4310 4410 60  0000 C CNN
+	1    4400 4600
+	0    -1   -1   0
+$EndComp
+$Comp
+L Capacitor C52
+U 1 1 643B18BC
+P 4800 4600
+F 0 "C52" V 4810 4410 60  0000 R TNN
+F 1 "100nF" V 4710 4410 60  0000 R TNN
+F 2 "" H 4710 4410 60  0000 C CNN
+F 3 "" H 4710 4410 60  0000 C CNN
+	1    4800 4600
+	0    -1   -1   0
+$EndComp
+$Comp
+L Resistor R60
+U 1 1 643B18BB
+P 5900 4200
+F 0 "R60" H 5890 4130 60  0000 L BNN
+F 1 "0R" H 5890 3970 60  0000 L BNN
+F 2 "" H 5890 3970 60  0000 C CNN
+F 3 "" H 5890 3970 60  0000 C CNN
+	1    5900 4200
+	1    0    0    -1
+$EndComp
+$Comp
+L Capacitor C54
+U 1 1 643B18BA
+P 6200 4600
+F 0 "C54" V 6210 4410 60  0000 R TNN
+F 1 "10nF" V 6110 4410 60  0000 R TNN
+F 2 "" H 6110 4410 60  0000 C CNN
+F 3 "" H 6110 4410 60  0000 C CNN
+	1    6200 4600
+	0    -1   -1   0
+$EndComp
+$Comp
+L Resistor R58
+U 1 1 643B18B9
+P 1700 10000
+F 0 "R58" H 1910 9870 60  0000 R TNN
+F 1 "4K7" H 1910 10030 60  0000 R TNN
+F 2 "" H 1910 10030 60  0000 C CNN
+F 3 "" H 1910 10030 60  0000 C CNN
+	1    1700 10000
+	-1   0    0    1
+$EndComp
+$Comp
+L 5051104091 CN16
+U 1 1 643B18B8
+P 3500 6200
+F 0 "CN16" H 3500 6200 60  0000 L BNN
+F 1 "Socket_FFC/FPC_5051104091" H 3500 2000 60  0000 L BNN
+F 2 "" H 3500 2000 60  0000 C CNN
+F 3 "" H 3500 2000 60  0000 C CNN
+	1    3500 6200
+	1    0    0    -1
+$EndComp
+$Comp
+L Capacitor C34
+U 1 1 643B18B7
+P 1800 4600
+F 0 "C34" V 1810 4410 60  0000 R TNN
+F 1 "10nF" V 1710 4410 60  0000 R TNN
+F 2 "" H 1710 4410 60  0000 C CNN
+F 3 "" H 1710 4410 60  0000 C CNN
+	1    1800 4600
+	0    -1   -1   0
+$EndComp
+$Comp
+L Capacitor C31
+U 1 1 643B18B6
+P 1400 4600
+F 0 "C31" V 1410 4410 60  0000 R TNN
+F 1 "100nF" V 1310 4410 60  0000 R TNN
+F 2 "" H 1310 4410 60  0000 C CNN
+F 3 "" H 1310 4410 60  0000 C CNN
+	1    1400 4600
+	0    -1   -1   0
+$EndComp
+$Comp
+L Resistor R57
+U 1 1 643B18B5
+P 2500 5200
+F 0 "R57" H 2400 5100 60  0000 L BNN
+F 1 "0R" H 2700 5100 60  0000 L BNN
+F 2 "" H 2700 5100 60  0000 C CNN
+F 3 "" H 2700 5100 60  0000 C CNN
+	1    2500 5200
+	1    0    0    -1
+$EndComp
+$Comp
+L Resistor R53
+U 1 1 643B18B4
+P 2500 5000
+F 0 "R53" H 2400 4900 60  0000 L BNN
+F 1 "4K7" H 2700 4900 60  0000 L BNN
+F 2 "" H 2700 4900 60  0000 C CNN
+F 3 "" H 2700 4900 60  0000 C CNN
+	1    2500 5000
+	1    0    0    -1
+$EndComp
+$Comp
+L Capacitor C50
+U 1 1 643B18B3
+P 1800 6800
+F 0 "C50" V 1850 6790 60  0000 L BNN
+F 1 "4.7uF" V 1950 6790 60  0000 L BNN
+F 2 "" H 1950 6790 60  0000 C CNN
+F 3 "" H 1950 6790 60  0000 C CNN
+	1    1800 6800
+	0    1    1    0
+$EndComp
+$Comp
+L Capacitor C53
+U 1 1 643B18B2
+P 1200 6900
+F 0 "C53" V 1210 6710 60  0000 R TNN
+F 1 "100nF" V 1110 6710 60  0000 R TNN
+F 2 "" H 1110 6710 60  0000 C CNN
+F 3 "" H 1110 6710 60  0000 C CNN
+	1    1200 6900
+	0    -1   -1   0
+$EndComp
+$Comp
+L Inductor L3
+U 1 1 643B18B1
+P 2700 4200
+F 0 "L3" H 2600 4200 60  0000 L BNN
+F 1 "4.7uH" H 2600 4000 60  0000 L BNN
+F 2 "" H 2600 4000 60  0000 C CNN
+F 3 "" H 2600 4000 60  0000 C CNN
+	1    2700 4200
+	1    0    0    -1
+$EndComp
+$EndSCHEMATC

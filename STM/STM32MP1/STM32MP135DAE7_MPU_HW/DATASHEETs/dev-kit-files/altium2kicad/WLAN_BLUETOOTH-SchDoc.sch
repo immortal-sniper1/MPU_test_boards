@@ -1,0 +1,907 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 1 1
+Title "WLAN_BLUETOOTH-SchDoc"
+Date "15 04 2023"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 10220 11000 0    60   ~ 0
+9
+Text Notes 10480 11000 0    60   ~ 0
+17
+Text Notes 8760 10590 0    60   ~ 12
+WLAN & Bluetooth
+Wire Notes Line
+	8500 10600 10900 10600
+Wire Notes Line
+	10900 10700 8500 10700
+Wire Notes Line
+	9000 11000 9000 10900
+Wire Notes Line
+	9900 11000 9900 10800
+Wire Notes Line
+	10900 11000 10900 10500
+Text Notes 8530 10590 0    60   ~ 0
+Title:
+Text Notes 8530 11000 0    60   ~ 0
+Size:
+Text Notes 9950 10890 0    60   ~ 0
+Reference:
+Text Notes 9950 11000 0    60   ~ 0
+Sheet:
+Text Notes 10350 11000 0    60   ~ 0
+of
+Text Notes 8730 11000 0    60   ~ 0
+A4
+Wire Notes Line
+	10900 10900 8500 10900
+Text Notes 8530 10890 0    60   ~ 0
+Revision:
+Text Notes 8530 10690 0    60   ~ 0
+Project:
+Wire Notes Line
+	8500 11000 8500 10500
+Wire Notes Line
+	8500 10500 11500 10500
+Text Notes 8840 10690 0    60   ~ 12
+=Board_Name
+Text Notes 10380 10890 0    60   ~ 0
+=Board_Reference
+Text Notes 8930 10890 0    60   ~ 0
+=Board_PCB_Revision
+Text Notes 9030 10890 0    60   ~ 0
+=Board_Assembly_Revision
+Text Notes 9270 11000 0    60   ~ 0
+=Board_Document_Date
+Wire Notes Line
+	10900 10800 8500 10800
+Text Notes 8850 10790 0    60   ~ 0
+=VariantName
+Text Notes 9040 11000 0    60   ~ 0
+Date:
+Text Notes 9000 10890 0    60   ~ 0
+-
+Text Notes 8530 10790 0    60   ~ 0
+Variant:
+Text Label 2300 5300 0 60 ~
+SDMMC2_D[0..3]
+Wire Bus Line
+	2200 5300 3000 5300
+Wire Wire Line
+	3000 5400 2200 5400
+Text Label 2300 5400 0 60 ~
+SDMMC2_CMD
+Wire Wire Line
+	3000 5500 2200 5500
+Text Label 2300 5500 0 60 ~
+SDMMC2_CK
+Wire Wire Line
+	2900 4700 2100 4700
+Text Label 2200 4700 0 60 ~
+USART2_TX
+Wire Wire Line
+	2900 4800 2100 4800
+Text Label 2200 4800 0 60 ~
+USART2_RX
+Wire Wire Line
+	2900 4900 2100 4900
+Text Label 2200 4900 0 60 ~
+USART2_CTS
+Wire Wire Line
+	2900 5000 2100 5000
+Text Label 2200 5000 0 60 ~
+USART2_RTS
+Wire Wire Line
+	2900 4100 2100 4100
+Wire Wire Line
+	2900 4200 2100 4200
+Wire Wire Line
+	2900 4300 2100 4300
+Wire Wire Line
+	2900 4400 2100 4400
+Text Label 2200 4100 0 60 ~
+BT_PCM_CLK
+Text Label 2200 4200 0 60 ~
+BT_PCM_SDI
+Text Label 2200 4300 0 60 ~
+BT_PCM_SDO
+Text Label 2200 4400 0 60 ~
+BT_PCM_WS
+Text HLabel 500 4200 2 60 BiDi ~
+BT_PCM_HARN
+Text HLabel 500 4800 2 60 BiDi ~
+BT_UART_HARN
+Text HLabel 500 5400 2 60 BiDi ~
+WL_SDIO_HARN
+Wire Wire Line
+	6500 9100 6400 9100
+Wire Wire Line
+	6500 9200 6400 9200
+Wire Wire Line
+	6500 9300 6400 9300
+Wire Wire Line
+	6500 9400 6400 9400
+Wire Wire Line
+	6500 9500 6400 9500
+Wire Wire Line
+	6500 9600 6400 9600
+Wire Wire Line
+	6500 9700 6400 9700
+$Comp
+L power:GND #PWR?643B1651
+U 1 1 643B1651
+P 6500 9800
+F 0 "GND_204" H 6500 9940 20  0000 C CNN
+F 1 "GND" H 6500 9910 30  0000 C CNN
+F 2 "" H 6500 9800 70  0000 C CNN
+F 3 "" H 6500 9800 70  0000 C CNN
+	1    6500 9800
+	1    0    0    -1  
+$EndComp
+Text Label 2700 6800 0 60 ~
+USART2_TX
+Text Label 2700 6900 0 60 ~
+USART2_RX
+Text Label 2700 7100 0 60 ~
+USART2_CTS
+Text Label 2700 7000 0 60 ~
+USART2_RTS
+Text Label 2700 7600 0 60 ~
+BT_PCM_CLK
+Text Label 2700 7500 0 60 ~
+BT_PCM_SDI
+Text Label 2700 7400 0 60 ~
+BT_PCM_SDO
+Text Label 2700 7300 0 60 ~
+BT_PCM_WS
+Text Label 6500 7200 0 60 ~
+SDMMC2_CMD
+Text Label 6500 7300 0 60 ~
+SDMMC2_CK
+Text Label 6500 7100 0 60 ~
+SDMMC2_D0
+Text Label 6500 7000 0 60 ~
+SDMMC2_D1
+Text Label 6500 6900 0 60 ~
+SDMMC2_D2
+Text Label 6500 6800 0 60 ~
+SDMMC2_D3
+$Comp
+L power:+3V3_AO #PWR?643B1650
+U 1 1 643B1650
+P 7500 8600
+F 0 "3V3_AO_10" H 7500 8600 20  0000 C CNN
+F 1 "3V3_AO" H 7500 8530 30  0000 C CNN
+F 2 "" H 7500 8600 70  0000 C CNN
+F 3 "" H 7500 8600 70  0000 C CNN
+	1    7500 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 6900 6400 6900
+Wire Wire Line
+	7900 6800 6400 6800
+Text GLabel 1600 7800 2 60 Input ~
+BT_REG_ON
+Text GLabel 1600 7900 2 60 Output ~
+BT_HOST_WAKE
+Text GLabel 7900 7800 2 60 Input ~
+WL_REG_ON
+Text GLabel 1600 8000 2 60 Input ~
+BT_DEV_WAKE
+Text GLabel 7900 7900 2 60 Output ~
+WL_HOST_WAKE
+Text GLabel 1600 9400 2 60 Input ~
+LPO_32
+$Comp
+L power:GND #PWR?643B164F
+U 1 1 643B164F
+P 6400 5600
+F 0 "GND_205" H 6400 5740 20  0000 C CNN
+F 1 "GND" H 6400 5710 30  0000 C CNN
+F 2 "" H 6400 5600 70  0000 C CNN
+F 3 "" H 6400 5600 70  0000 C CNN
+	1    6400 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?643B164E
+U 1 1 643B164E
+P 5600 5600
+F 0 "GND_206" H 5600 5740 20  0000 C CNN
+F 1 "GND" H 5600 5710 30  0000 C CNN
+F 2 "" H 5600 5600 70  0000 C CNN
+F 3 "" H 5600 5600 70  0000 C CNN
+	1    5600 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?643B164D
+U 1 1 643B164D
+P 7900 5600
+F 0 "GND_207" H 7900 5740 20  0000 C CNN
+F 1 "GND" H 7900 5710 30  0000 C CNN
+F 2 "" H 7900 5600 70  0000 C CNN
+F 3 "" H 7900 5600 70  0000 C CNN
+	1    7900 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?643B164C
+U 1 1 643B164C
+P 7100 5600
+F 0 "GND_208" H 7100 5740 20  0000 C CNN
+F 1 "GND" H 7100 5710 30  0000 C CNN
+F 2 "" H 7100 5600 70  0000 C CNN
+F 3 "" H 7100 5600 70  0000 C CNN
+	1    7100 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 5300 5300 6200
+Wire Wire Line
+	5600 5300 5300 5300
+Wire Wire Line
+	5800 5300 5600 5300
+Wire Wire Line
+	6400 5300 6200 5300
+Wire Wire Line
+	7100 5300 6400 5300
+Wire Wire Line
+	7300 5300 7100 5300
+$Comp
+L power:GND #PWR?643B164B
+U 1 1 643B164B
+P 5400 6200
+F 0 "GND_209" H 5400 6340 20  0000 C CNN
+F 1 "GND" H 5400 6310 30  0000 C CNN
+F 2 "" H 5400 6200 70  0000 C CNN
+F 3 "" H 5400 6200 70  0000 C CNN
+	1    5400 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 6200 5200 6200
+Wire Wire Line
+	5000 6200 5100 6200
+Wire Wire Line
+	4900 6200 5000 6200
+Wire Wire Line
+	4800 6200 4900 6200
+Wire Wire Line
+	4600 6200 4800 6200
+$Comp
+L power:GND #PWR?643B164A
+U 1 1 643B164A
+P 4600 6200
+F 0 "GND_210" H 4600 6340 20  0000 C CNN
+F 1 "GND" H 4600 6310 30  0000 C CNN
+F 2 "" H 4600 6200 70  0000 C CNN
+F 3 "" H 4600 6200 70  0000 C CNN
+	1    4600 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 5300 9100 5300
+NoConn ~ 9200 5300
+Wire Notes Line
+	5000 6000 5000 5000
+Wire Notes Line
+	5000 6000 10400 6000
+Wire Notes Line
+	5000 5000 10400 5000
+Wire Notes Line
+	10400 6000 10400 5000
+$Comp
+L power:GND #PWR?643B1649
+U 1 1 643B1649
+P 8100 8600
+F 0 "GND_211" H 8100 8740 20  0000 C CNN
+F 1 "GND" H 8100 8710 30  0000 C CNN
+F 2 "" H 8100 8600 70  0000 C CNN
+F 3 "" H 8100 8600 70  0000 C CNN
+	1    8100 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 8200 6400 8200
+Wire Wire Line
+	8100 8300 6400 8300
+Wire Wire Line
+	8100 8200 8100 8300
+Wire Wire Line
+	7400 8200 8100 8200
+Wire Wire Line
+	7900 5300 7700 5300
+Wire Wire Line
+	8500 5300 7900 5300
+$Comp
+L power:VDD #PWR?643B1648
+U 1 1 643B1648
+P 8500 6700
+F 0 "VDD_33" H 8500 6700 20  0000 C CNN
+F 1 "VDD" H 8500 6630 30  0000 C CNN
+F 2 "" H 8500 6700 70  0000 C CNN
+F 3 "" H 8500 6700 70  0000 C CNN
+	1    8500 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 7000 6400 7000
+Wire Wire Line
+	7900 7100 6400 7100
+Wire Wire Line
+	7900 7200 6400 7200
+Wire Wire Line
+	8500 6800 8300 6800
+Wire Wire Line
+	8500 6700 8500 6800
+Wire Wire Line
+	8500 6900 8300 6900
+Wire Wire Line
+	8500 6800 8500 6900
+Wire Wire Line
+	8500 7000 8300 7000
+Wire Wire Line
+	8500 6900 8500 7000
+Wire Wire Line
+	8500 7100 8300 7100
+Wire Wire Line
+	8500 7000 8500 7100
+Wire Wire Line
+	8500 7200 8300 7200
+Wire Wire Line
+	8500 7100 8500 7200
+Text Notes 1400 7400 0    60   ~ 0
+BT_PCM = I2S2
+NoConn ~ 3900 8500
+NoConn ~ 3900 9000
+NoConn ~ 3900 8400
+Wire Wire Line
+	6400 7900 7900 7900
+Wire Wire Line
+	2600 7800 2500 7800
+Wire Wire Line
+	3900 7800 2600 7800
+Wire Wire Line
+	3900 7900 2500 7900
+Wire Wire Line
+	3900 8000 2500 8000
+Wire Wire Line
+	3900 7300 2500 7300
+Wire Wire Line
+	2500 7500 3900 7500
+Wire Wire Line
+	3900 7400 2500 7400
+Wire Wire Line
+	3900 7600 2500 7600
+Wire Wire Line
+	3900 6800 2500 6800
+Wire Wire Line
+	3900 6900 2500 6900
+Wire Wire Line
+	3900 7000 2500 7000
+Wire Wire Line
+	3900 7100 2500 7100
+Text Notes 200 3700 0    108   ~ 0
+WLAN & Bluetooth
+$Comp
+L power:GND #PWR?643B1647
+U 1 1 643B1647
+P 8500 8600
+F 0 "GND_212" H 8500 8740 20  0000 C CNN
+F 1 "GND" H 8500 8710 30  0000 C CNN
+F 2 "" H 8500 8600 70  0000 C CNN
+F 3 "" H 8500 8600 70  0000 C CNN
+	1    8500 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 8300 8100 8300
+$Comp
+L power:VDD #PWR?643B1646
+U 1 1 643B1646
+P 6700 8600
+F 0 "VDD_34" H 6700 8600 20  0000 C CNN
+F 1 "VDD" H 6700 8530 30  0000 C CNN
+F 2 "" H 6700 8600 70  0000 C CNN
+F 3 "" H 6700 8600 70  0000 C CNN
+	1    6700 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 8700 7500 8800
+Wire Wire Line
+	7100 8700 7500 8700
+Wire Wire Line
+	7100 8800 7100 8700
+Wire Wire Line
+	6500 9000 6400 9000
+Wire Wire Line
+	6500 9100 6500 9000
+Wire Wire Line
+	6500 9200 6500 9100
+Wire Wire Line
+	6500 9300 6500 9200
+Wire Wire Line
+	6500 9400 6500 9300
+Wire Wire Line
+	6500 9500 6500 9400
+Wire Wire Line
+	6500 9600 6500 9500
+Wire Wire Line
+	6500 9700 6500 9600
+Wire Wire Line
+	6500 9800 6500 9700
+Wire Wire Line
+	6700 8600 6400 8600
+Wire Wire Line
+	6700 8800 6700 8600
+Wire Wire Line
+	7500 8700 7500 8600
+Wire Wire Line
+	7100 8700 6400 8700
+Wire Wire Line
+	6700 9200 6700 9100
+Wire Wire Line
+	7100 9200 7100 9100
+Wire Wire Line
+	7500 9200 7500 9100
+Wire Wire Line
+	7100 9200 7500 9200
+Wire Wire Line
+	6700 9200 7100 9200
+$Comp
+L power:GND #PWR?643B1645
+U 1 1 643B1645
+P 7100 9200
+F 0 "GND_213" H 7100 9340 20  0000 C CNN
+F 1 "GND" H 7100 9310 30  0000 C CNN
+F 2 "" H 7100 9200 70  0000 C CNN
+F 3 "" H 7100 9200 70  0000 C CNN
+	1    7100 9200
+	1    0    0    -1  
+$EndComp
+Text Notes 3500 6900 0    60   ~ 0
+PD15
+Text Notes 3500 7900 0    60   ~ 0
+PE10
+Text Notes 3500 7600 0    60   ~ 0
+PB10
+Text Notes 3500 7500 0    60   ~ 0
+PB5
+Text Notes 3500 7400 0    60   ~ 0
+PH10
+Text Notes 3500 7300 0    60   ~ 0
+PB13
+Text Notes 2700 9400 0    60   ~ 0
+PI1
+Wire Wire Line
+	2600 7700 2500 7700
+Wire Wire Line
+	2600 7800 2600 7700
+Wire Wire Line
+	2600 9300 2500 9300
+Wire Wire Line
+	2600 9400 2600 9300
+Text Notes 3500 6800 0    60   ~ 0
+PH12
+Text Notes 3500 7000 0    60   ~ 0
+PD4
+Text Notes 3500 7100 0    60   ~ 0
+PE11
+Text Notes 7400 7900 0    60   ~ 0
+PF0
+Text Notes 7400 7300 0    60   ~ 0
+PE3
+Text Notes 7400 7200 0    60   ~ 0
+PG6
+Text Notes 7400 7100 0    60   ~ 0
+PB14
+Text Notes 7400 7000 0    60   ~ 0
+PB15
+Text Notes 7400 6900 0    60   ~ 0
+PB3
+Text Notes 7400 6800 0    60   ~ 0
+PB4
+Text Notes 3500 8000 0    60   ~ 0
+MCP_IO11
+Text Notes 3500 7800 0    60   ~ 0
+MCP_IO12
+Text Notes 7400 7800 0    60   ~ 0
+MCP_IO13
+Wire Wire Line
+	7800 7300 6400 7300
+Wire Wire Line
+	6600 7800 6400 7800
+Wire Wire Line
+	7900 7800 6600 7800
+Wire Wire Line
+	2600 9400 2500 9400
+Wire Wire Line
+	3100 9400 2600 9400
+Wire Wire Line
+	3900 9400 3500 9400
+Connection ~ 2600 9400
+Connection ~ 2600 7800
+Connection ~ 4800 6200
+Connection ~ 4900 6200
+Connection ~ 5000 6200
+Connection ~ 5100 6200
+Connection ~ 5600 5300
+Connection ~ 6400 5300
+Connection ~ 6500 9700
+Connection ~ 6500 9600
+Connection ~ 6500 9500
+Connection ~ 6500 9400
+Connection ~ 6500 9300
+Connection ~ 6500 9200
+Connection ~ 6500 9100
+Connection ~ 6600 7800
+Connection ~ 6700 8600
+Connection ~ 7100 9200
+Connection ~ 7100 8700
+Connection ~ 7100 5300
+Connection ~ 7500 8700
+Connection ~ 7900 5300
+Connection ~ 8100 8300
+Connection ~ 8500 7100
+Connection ~ 8500 7000
+Connection ~ 8500 6900
+Connection ~ 8500 6800
+$Comp
+L LBEE5KL1DX-883 U1
+U 1 1 643B1644
+P 4100 6400
+F 0 "U1" H 4100 6400 60  0000 L BNN
+F 1 "LBEE5KL1DX-977" H 4100 2900 60  0000 L BNN
+F 2 "" H 4100 2900 60  0000 C CNN
+F 3 "" H 4100 2900 60  0000 C CNN
+	1    4100 6400
+	1    0    0    -1
+$EndComp
+$Comp
+L antenna_Wifi_BLE_Murata CN2
+U 1 1 643B1643
+P 9300 5200
+F 0 "CN2" H 9290 5200 60  0000 L BNN
+F 1 "P2ML4452-1-A.DXF" H 9290 4700 60  0000 L BNN
+F 2 "" H 9290 4700 60  0000 C CNN
+F 3 "" H 9290 4700 60  0000 C CNN
+	1    9300 5200
+	1    0    0    -1
+$EndComp
+$Comp
+L Inductor L1
+U 1 1 643B1642
+P 8600 5200
+F 0 "L1" H 8600 5200 60  0000 L BNN
+F 1 "2.4nH" H 8600 4970 60  0000 L BNN
+F 2 "" H 8600 4970 60  0000 C CNN
+F 3 "" H 8600 4970 60  0000 C CNN
+	1    8600 5200
+	1    0    0    -1
+$EndComp
+$Comp
+L Inductor L2
+U 1 1 643B1641
+P 6900 8100
+F 0 "L2" H 6900 8100 60  0000 L BNN
+F 1 "2.2uH" H 7200 8100 60  0000 L BNN
+F 2 "" H 7200 8100 60  0000 C CNN
+F 3 "" H 7200 8100 60  0000 C CNN
+	1    6900 8100
+	1    0    0    -1
+$EndComp
+$Comp
+L Resistor R14
+U 1 1 643B1640
+P 8200 7100
+F 0 "R14" H 8500 7000 60  0000 R BNN
+F 1 "47K" H 8200 7000 60  0000 L BNN
+F 2 "" H 8200 7000 60  0000 C CNN
+F 3 "" H 8200 7000 60  0000 C CNN
+	1    8200 7100
+	-1    0    0    -1
+$EndComp
+$Comp
+L Resistor R16
+U 1 1 643B163F
+P 8200 7000
+F 0 "R16" H 8500 6900 60  0000 R BNN
+F 1 "47K" H 8200 6900 60  0000 L BNN
+F 2 "" H 8200 6900 60  0000 C CNN
+F 3 "" H 8200 6900 60  0000 C CNN
+	1    8200 7000
+	-1    0    0    -1
+$EndComp
+$Comp
+L Resistor R18
+U 1 1 643B163E
+P 8200 6900
+F 0 "R18" H 8500 6800 60  0000 R BNN
+F 1 "47K" H 8200 6800 60  0000 L BNN
+F 2 "" H 8200 6800 60  0000 C CNN
+F 3 "" H 8200 6800 60  0000 C CNN
+	1    8200 6900
+	-1    0    0    -1
+$EndComp
+$Comp
+L Resistor R15
+U 1 1 643B163D
+P 8200 6800
+F 0 "R15" H 8500 6700 60  0000 R BNN
+F 1 "47K" H 8200 6700 60  0000 L BNN
+F 2 "" H 8200 6700 60  0000 C CNN
+F 3 "" H 8200 6700 60  0000 C CNN
+	1    8200 6800
+	-1    0    0    -1
+$EndComp
+$Comp
+L Resistor R17
+U 1 1 643B163C
+P 8200 6700
+F 0 "R17" H 8500 6600 60  0000 R BNN
+F 1 "47K" H 8200 6600 60  0000 L BNN
+F 2 "" H 8200 6600 60  0000 C CNN
+F 3 "" H 8200 6600 60  0000 C CNN
+	1    8200 6700
+	-1    0    0    -1
+$EndComp
+$Comp
+L Capacitor C15
+U 1 1 643B163B
+P 6600 9000
+F 0 "C15" V 6610 8810 60  0000 R TNN
+F 1 "100nF" V 6510 8810 60  0000 R TNN
+F 2 "" H 6510 8810 60  0000 C CNN
+F 3 "" H 6510 8810 60  0000 C CNN
+	1    6600 9000
+	0    -1   -1   0
+$EndComp
+$Comp
+L Capacitor C19
+U 1 1 643B163A
+P 7000 9000
+F 0 "C19" V 7010 8810 60  0000 R TNN
+F 1 "10uF" V 6910 8810 60  0000 R TNN
+F 2 "" H 6910 8810 60  0000 C CNN
+F 3 "" H 6910 8810 60  0000 C CNN
+	1    7000 9000
+	0    -1   -1   0
+$EndComp
+$Comp
+L Capacitor C20
+U 1 1 643B1639
+P 8000 8500
+F 0 "C20" V 8010 8310 60  0000 R TNN
+F 1 "4.7uF" V 7910 8310 60  0000 R TNN
+F 2 "" H 7910 8310 60  0000 C CNN
+F 3 "" H 7910 8310 60  0000 C CNN
+	1    8000 8500
+	0    -1   -1   0
+$EndComp
+$Comp
+L Test_Point TP18
+U 1 1 643B1638
+P 3800 8600
+F 0 "TP18" H 4000 8600 60  0000 R TNN
+	1    3800 8600
+	-1   0    0    1
+$EndComp
+$Comp
+L Test_Point TP22
+U 1 1 643B1637
+P 3800 8700
+F 0 "TP22" H 4000 8700 60  0000 R TNN
+	1    3800 8700
+	-1   0    0    1
+$EndComp
+$Comp
+L Test_Point TP2
+U 1 1 643B1636
+P 3800 8800
+F 0 "TP2" H 4000 8800 60  0000 R TNN
+	1    3800 8800
+	-1   0    0    1
+$EndComp
+$Comp
+L Test_Point TP5
+U 1 1 643B1635
+P 3800 8900
+F 0 "TP5" H 4000 8900 60  0000 R TNN
+	1    3800 8900
+	-1   0    0    1
+$EndComp
+$Comp
+L Test_Point TP27
+U 1 1 643B1634
+P 7900 7300
+F 0 "TP27" H 7900 7300 60  0000 L BNN
+	1    7900 7300
+	1    0    0    -1
+$EndComp
+$Comp
+L Test_Point TP30
+U 1 1 643B1633
+P 6600 7700
+F 0 "TP30" V 6600 7700 60  0000 R TNN
+	1    6600 7700
+	0    -1   -1   0
+$EndComp
+$Comp
+L Test_Point TP14
+U 1 1 643B1632
+P 2400 7700
+F 0 "TP14" H 2600 7700 60  0000 R TNN
+	1    2400 7700
+	-1   0    0    1
+$EndComp
+$Comp
+L Test_Point TP4
+U 1 1 643B1631
+P 2400 6800
+F 0 "TP4" H 2600 6800 60  0000 R TNN
+	1    2400 6800
+	-1   0    0    1
+$EndComp
+$Comp
+L Test_Point TP7
+U 1 1 643B1630
+P 2400 6900
+F 0 "TP7" H 2600 6900 60  0000 R TNN
+	1    2400 6900
+	-1   0    0    1
+$EndComp
+$Comp
+L Test_Point TP15
+U 1 1 643B162F
+P 2400 9300
+F 0 "TP15" H 2600 9300 60  0000 R TNN
+	1    2400 9300
+	-1   0    0    1
+$EndComp
+$Comp
+L Capacitor C18
+U 1 1 643B162E
+P 7400 9000
+F 0 "C18" V 7410 8810 60  0000 R TNN
+F 1 "2.2uF" V 7310 8810 60  0000 R TNN
+F 2 "" H 7310 8810 60  0000 C CNN
+F 3 "" H 7310 8810 60  0000 C CNN
+	1    7400 9000
+	0    -1   -1   0
+$EndComp
+$Comp
+L Test_Point TP3
+U 1 1 643B162D
+P 2400 7000
+F 0 "TP3" H 2600 7000 60  0000 R TNN
+	1    2400 7000
+	-1   0    0    1
+$EndComp
+$Comp
+L Test_Point TP6
+U 1 1 643B162C
+P 2400 7100
+F 0 "TP6" H 2600 7100 60  0000 R TNN
+	1    2400 7100
+	-1   0    0    1
+$EndComp
+$Comp
+L Test_Point TP1
+U 1 1 643B162B
+P 2400 7300
+F 0 "TP1" H 2600 7300 60  0000 R TNN
+	1    2400 7300
+	-1   0    0    1
+$EndComp
+$Comp
+L Test_Point TP9
+U 1 1 643B162A
+P 2400 7400
+F 0 "TP9" H 2600 7400 60  0000 R TNN
+	1    2400 7400
+	-1   0    0    1
+$EndComp
+$Comp
+L Test_Point TP8
+U 1 1 643B1629
+P 2400 7500
+F 0 "TP8" H 2600 7500 60  0000 R TNN
+	1    2400 7500
+	-1   0    0    1
+$EndComp
+$Comp
+L Test_Point TP11
+U 1 1 643B1628
+P 2400 7600
+F 0 "TP11" H 2600 7600 60  0000 R TNN
+	1    2400 7600
+	-1   0    0    1
+$EndComp
+$Comp
+L Capacitor C21
+U 1 1 643B1627
+P 8400 8500
+F 0 "C21" V 8410 8310 60  0000 R TNN
+F 1 "4.7uF" V 8310 8310 60  0000 R TNN
+F 2 "" H 8310 8310 60  0000 C CNN
+F 3 "" H 8310 8310 60  0000 C CNN
+	1    8400 8500
+	0    -1   -1   0
+$EndComp
+$Comp
+L Resistor R190
+U 1 1 643B1626
+P 3200 9300
+F 0 "R190" H 3100 9200 60  0000 L BNN
+F 1 "0R" H 3400 9200 60  0000 L BNN
+F 2 "" H 3400 9200 60  0000 C CNN
+F 3 "" H 3400 9200 60  0000 C CNN
+	1    3200 9300
+	1    0    0    -1
+$EndComp
+$Comp
+L Resistor R2
+U 1 1 643B1625
+P 6100 5400
+F 0 "R2" H 6310 5270 60  0000 R TNN
+F 1 "0R" H 6310 5430 60  0000 R TNN
+F 2 "" H 6310 5430 60  0000 C CNN
+F 3 "" H 6310 5430 60  0000 C CNN
+	1    6100 5400
+	-1   0    0    1
+$EndComp
+$Comp
+L Capacitor C4
+U 1 1 643B1624
+P 5500 5500
+F 0 "C4" V 5410 5310 60  0000 R TNN
+	1    5500 5500
+	0    -1   -1   0
+$EndComp
+$Comp
+L Capacitor C1
+U 1 1 643B1623
+P 6300 5500
+F 0 "C1" V 6210 5310 60  0000 R TNN
+	1    6300 5500
+	0    -1   -1   0
+$EndComp
+$Comp
+L Resistor R1
+U 1 1 643B1622
+P 7600 5400
+F 0 "R1" H 7810 5270 60  0000 R TNN
+F 1 "0R" H 7810 5430 60  0000 R TNN
+F 2 "" H 7810 5430 60  0000 C CNN
+F 3 "" H 7810 5430 60  0000 C CNN
+	1    7600 5400
+	-1   0    0    1
+$EndComp
+$Comp
+L Capacitor C2
+U 1 1 643B1621
+P 7000 5500
+F 0 "C2" V 6910 5310 60  0000 R TNN
+	1    7000 5500
+	0    -1   -1   0
+$EndComp
+$Comp
+L Capacitor C3
+U 1 1 643B1620
+P 7800 5500
+F 0 "C3" V 7710 5310 60  0000 R TNN
+	1    7800 5500
+	0    -1   -1   0
+$EndComp
+$EndSCHEMATC
